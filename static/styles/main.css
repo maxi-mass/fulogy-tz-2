@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "MullerMedium";
+  src: url("/static/fonts/MullerMedium.otf");
+}
+@font-face {
+  font-family: "MullerBold";
+  src: url("/static/fonts/MullerBold.otf");
+}
+@font-face {
+  font-family: "MullerExtraBold";
+  src: url("/static/fonts/MullerExtraBold.otf");
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#__next {
+  padding: 100px;
+}
