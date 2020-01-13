@@ -1,0 +1,46 @@
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 7px solid #fbfbfb;
+}
+.navbar__logo {
+  background-image: url("/static/images/Logo.png");
+  width: 111px;
+  height: 39px;
+}
+
+.navbar__nav {
+  font-size: 16px;
+}
+
+.nav__link {
+  color: #1a1a1a;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.navbar__phone {
+  position: relative;
+  margin-left: 10px;
+}
+.phone__text {
+  font-size: 16px;
+  color: #9a9a9a;
+  display: inline-block;
+  left: 30px;
+  position: relative;
+}
+.phone__number {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  left: 40px;
+}

@@ -1,0 +1,21 @@
+.button {
+  background-color: #ffcf0d;
+  border: none;
+  height: 55px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "MullerBold";
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: background 0.2s linear;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #ffe013;
+}
+
+.button:active {
+  background: #ffcf0d;
+}
