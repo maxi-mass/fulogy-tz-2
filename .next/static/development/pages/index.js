@@ -292,7 +292,7 @@ module.exports = function (moduleId, options) {
 "use strict";
 
 const url = __webpack_require__(/*! url */ "./node_modules/native-url/dist/index.js");
-const punycode = __webpack_require__(/*! punycode */ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js");
+const punycode = __webpack_require__(/*! punycode */ "./node_modules/punycode/punycode.js");
 const queryString = __webpack_require__(/*! query-string */ "./node_modules/extract-css-chunks-webpack-plugin/node_modules/query-string/index.js");
 const prependHttp = __webpack_require__(/*! prepend-http */ "./node_modules/extract-css-chunks-webpack-plugin/node_modules/prepend-http/index.js");
 const sortKeys = __webpack_require__(/*! sort-keys */ "./node_modules/extract-css-chunks-webpack-plugin/node_modules/sort-keys/index.js");
@@ -830,10 +830,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fmaximas%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js!./":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fmaximas%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js ***!
-  \**************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fuser%2Fwork%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js!./":
+/*!******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fuser%2Fwork%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js ***!
+  \******************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -853,10 +853,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 /***/ }),
 
-/***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
-  \**************************************************************************/
+/***/ "./node_modules/punycode/punycode.js":
+/*!*******************************************!*\
+  !*** ./node_modules/punycode/punycode.js ***!
+  \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1380,7 +1380,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module), __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -1701,8 +1701,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_components_sections_Header_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/sections/Header/Header */ "./src/components/sections/Header/Header.jsx");
 /* harmony import */ var _src_components_sections_Features_Features__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/sections/Features/Features */ "./src/components/sections/Features/Features.jsx");
 /* harmony import */ var _src_components_sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/components/sections/Portfolio/Portfolio */ "./src/components/sections/Portfolio/Portfolio.jsx");
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/pages/index.js";
+/* harmony import */ var _src_components_sections_Slider_Slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/components/sections/Slider/Slider */ "./src/components/sections/Slider/Slider.jsx");
+/* harmony import */ var _src_components_sections_AboutPrice_AboutPrice__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../src/components/sections/AboutPrice/AboutPrice */ "./src/components/sections/AboutPrice/AboutPrice.jsx");
+/* harmony import */ var _src_components_sections_LampConstructor_LampConstructor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../src/components/sections/LampConstructor/LampConstructor */ "./src/components/sections/LampConstructor/LampConstructor.jsx");
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
 
 
 
@@ -1713,25 +1719,37 @@ var Index = function Index() {
   return __jsx(_src_components_Wrapper_Wrapper__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 12
     },
     __self: this
   }, __jsx(_src_components_sections_Header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: this
   }), __jsx(_src_components_sections_Features_Features__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
   }), __jsx(_src_components_sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 15
+    },
+    __self: this
+  }), __jsx(_src_components_sections_Slider_Slider__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), __jsx(_src_components_sections_AboutPrice_AboutPrice__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
     },
     __self: this
   }));
@@ -1754,7 +1772,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Wrapper_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Wrapper.module.css */ "./src/components/Wrapper/Wrapper.module.css");
 /* harmony import */ var _Wrapper_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Wrapper_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/Wrapper/Wrapper.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/Wrapper/Wrapper.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1787,7 +1805,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Button_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Button.module.css */ "./src/components/common/Button/Button.module.css");
 /* harmony import */ var _Button_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Button_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/common/Button/Button.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/common/Button/Button.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1807,6 +1825,85 @@ var Button = function Button(props) {
 
 /***/ }),
 
+/***/ "./src/components/sections/AboutPrice/AboutPrice.jsx":
+/*!***********************************************************!*\
+  !*** ./src/components/sections/AboutPrice/AboutPrice.jsx ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AboutPrice.module.css */ "./src/components/sections/AboutPrice/AboutPrice.module.css");
+/* harmony import */ var _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/AboutPrice/AboutPrice.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var AboutPrice = function AboutPrice(props) {
+  return __jsx("div", {
+    className: _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.about_price,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.about_price__inner,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "\u0447\u0442\u043E\u0431\u044B \u0443\u0437\u043D\u0430\u0442\u044C \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u0430,"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0449\u0435\u0433\u043E \u043A \u0412\u0430\u0448\u0435\u043C\u0443 \u0434\u0438\u0437\u0430\u0439\u043D\u0443,", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), " \u0432\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435\u0441\u044C \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440\u043E\u043C \u0440\u0430\u0441\u0447\u0435\u0442\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u0438:")), __jsx("div", {
+    className: _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.about_price__arrow_down,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), __jsx("div", {
+    className: _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.about_price__lamp_bg,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/lamp-bg.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (AboutPrice);
+
+/***/ }),
+
 /***/ "./src/components/sections/Features/Features.jsx":
 /*!*******************************************************!*\
   !*** ./src/components/sections/Features/Features.jsx ***!
@@ -1821,7 +1918,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Features_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Features.module.css */ "./src/components/sections/Features/Features.module.css");
 /* harmony import */ var _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Features_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _common_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/Button/Button */ "./src/components/common/Button/Button.jsx");
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Features/Features.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Features/Features.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2247,7 +2344,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../common/Button/Button */ "./src/components/common/Button/Button.jsx");
 /* harmony import */ var _VideoButton_VideoButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./VideoButton/VideoButton */ "./src/components/sections/Header/Content/VideoButton/VideoButton.jsx");
 /* harmony import */ var _LampSlider_LampSlider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./LampSlider/LampSlider */ "./src/components/sections/Header/Content/LampSlider/LampSlider.jsx");
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/Content.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Content/Content.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2360,7 +2457,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LampSlider.module.css */ "./src/components/sections/Header/Content/LampSlider/LampSlider.module.css");
 /* harmony import */ var _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/LampSlider/LampSlider.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Content/LampSlider/LampSlider.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2474,7 +2571,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./VideoButton.module.css */ "./src/components/sections/Header/Content/VideoButton/VideoButton.module.css");
 /* harmony import */ var _VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/VideoButton/VideoButton.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Content/VideoButton/VideoButton.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2588,7 +2685,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Header_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar/Navbar */ "./src/components/sections/Header/Navbar/Navbar.jsx");
 /* harmony import */ var _Content_Content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Content/Content */ "./src/components/sections/Header/Content/Content.jsx");
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Header.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Header.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2760,7 +2857,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Navbar_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar.module.css */ "./src/components/sections/Header/Navbar/Navbar.module.css");
 /* harmony import */ var _Navbar_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Navbar_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Navbar/Navbar.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Navbar/Navbar.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2863,6 +2960,87 @@ var Navbar = function Navbar(props) {
 
 /***/ }),
 
+/***/ "./src/components/sections/LampConstructor/LampConstructor.jsx":
+/*!*********************************************************************!*\
+  !*** ./src/components/sections/LampConstructor/LampConstructor.jsx ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LampConstructor.module.css */ "./src/components/sections/LampConstructor/LampConstructor.module.css");
+/* harmony import */ var _LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _RangePicker_RangePicker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./RangePicker/RangePicker */ "./src/components/sections/LampConstructor/RangePicker/RangePicker.jsx");
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/LampConstructor/LampConstructor.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var LampConstructor = function LampConstructor(props) {
+  return __jsx("div", {
+    className: _LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.lamp_constructor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.lamp_constructor_inner,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(_RangePicker_RangePicker__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (LampConstructor);
+
+/***/ }),
+
+/***/ "./src/components/sections/LampConstructor/RangePicker/RangePicker.jsx":
+/*!*****************************************************************************!*\
+  !*** ./src/components/sections/LampConstructor/RangePicker/RangePicker.jsx ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _RangePicker_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./RangePicker.module.css */ "./src/components/sections/LampConstructor/RangePicker/RangePicker.module.css");
+/* harmony import */ var _RangePicker_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_RangePicker_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/LampConstructor/RangePicker/RangePicker.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var RangePicker = function RangePicker(props) {
+  return __jsx("div", {
+    className: _RangePicker_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.range_picker,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, "RANGE PICKER");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (RangePicker);
+
+/***/ }),
+
 /***/ "./src/components/sections/Portfolio/Portfolio.jsx":
 /*!*********************************************************!*\
   !*** ./src/components/sections/Portfolio/Portfolio.jsx ***!
@@ -2876,7 +3054,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Portfolio.module.css */ "./src/components/sections/Portfolio/Portfolio.module.css");
 /* harmony import */ var _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Portfolio/Portfolio.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Portfolio/Portfolio.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -3185,14 +3363,213 @@ var Portfolio = function Portfolio(props) {
 
 /***/ }),
 
-/***/ 0:
-/*!******************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fmaximas%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js ***!
-  \******************************************************************************************************************************/
+/***/ "./src/components/sections/Slider/Slider.jsx":
+/*!***************************************************!*\
+  !*** ./src/components/sections/Slider/Slider.jsx ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Slider_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Slider.module.css */ "./src/components/sections/Slider/Slider.module.css");
+/* harmony import */ var _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Slider_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Slider/Slider.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var Slider = function Slider(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(1),
+      currentImage = _useState[0],
+      setCurrentImage = _useState[1];
+
+  var sliderHandler = function sliderHandler(direction) {
+    switch (direction) {
+      case "next":
+        {
+          if (currentImage < 6) {
+            setCurrentImage(function (prev) {
+              return prev + 1;
+            });
+          }
+
+          break;
+        }
+
+      case "prev":
+        {
+          if (currentImage > 1) {
+            setCurrentImage(function (prev) {
+              return prev - 1;
+            });
+          }
+
+          break;
+        }
+    }
+  };
+
+  return __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "".concat(_Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__left, " ").concat(_Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__desc),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "\u0411\u0435\u0441\u043A\u043E\u043D\u0442\u0430\u043A\u0442\u043D\u0430\u044F \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "\u0421\u0432\u0435\u0442\u043E\u0434\u0438\u043E\u0434\u044B \u0432\u044B\u0441\u043E\u043A\u043E\u0439 \u0446\u0432\u0435\u0442\u043E\u043F\u0435\u0440\u0435\u0434\u0430\u0447\u0438"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "\u0410\u043B\u044E\u043C\u0438\u043D\u0438\u0435\u0432\u044B\u0439 \u043A\u043E\u0440\u043F\u0443\u0441 \u0431\u0435\u0437 \u043F\u0435\u0440\u0435\u0433\u0440\u0435\u0432\u0430")), __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__center,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__center_inner,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.center_inner__image,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/slider/Photo-".concat(currentImage, ".jpg"),
+    alt: "Photo-".concat(currentImage),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  })), __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.center_inner__numberOf,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "purpure_text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, currentImage), " / 6"), __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.center_inner__buttons,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, __jsx("div", {
+    onClick: function onClick() {
+      return sliderHandler("prev");
+    },
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.buttons__prev,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/arrow.png",
+    alt: "prev",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  })), __jsx("div", {
+    onClick: function onClick() {
+      return sliderHandler("next");
+    },
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.buttons__next,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/arrow.png",
+    alt: "next",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }))))), __jsx("div", {
+    className: "".concat(_Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__right, " ").concat(_Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__desc),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, "\u041D\u0438\u0437\u043A\u043E\u0435 \u044D\u043D\u0435\u0440\u0433\u043E\u043F\u043E\u0442\u0440\u0435\u0431\u043B\u0435\u043D\u0438\u0435"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "\u041B\u0435\u0433\u043A\u043E \u043C\u043E\u043D\u0442\u0438\u0440\u0443\u0435\u0442\u0441\u044F \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "\u0423\u0434\u043E\u0431\u043D\u043E \u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Slider);
+
+/***/ }),
+
+/***/ 1:
+/*!**********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fuser%2Fwork%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fmaximas%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fmaximas%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fuser%2Fwork%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fuser%2Fwork%2Fprojects%2Ffulogy-tz-2%2Fpages%2Findex.js!./");
 
 
 /***/ }),
@@ -3208,5 +3585,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

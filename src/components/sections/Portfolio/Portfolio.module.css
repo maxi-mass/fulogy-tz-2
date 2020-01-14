@@ -1,22 +1,25 @@
 .portfolio {
   height: 665px;
-  margin-bottom: 100px;
   background-color: #f8f7fd;
 }
+
 .portfolio__inner_wrapper {
   height: 505px;
   padding-top: 50px;
 }
+
 .inner_wrapper__label {
   margin-top: 0;
   font-family: "MullerExtraBold";
   font-size: 30px;
   text-transform: uppercase;
 }
+
 .inner_wrapper__works {
   display: flex;
   justify-content: space-between;
 }
+
 .work_item {
   width: 276px;
   background-color: #fff;
@@ -24,12 +27,15 @@
   padding-left: 12px;
   transition: box-shadow 0.4s linear;
 }
+
 .work_item:hover {
   box-shadow: 0 10px 25px 0 #e3d1ff;
 }
+
 .work_item__img {
   margin-top: 13px;
 }
+
 .work_item__label {
   font-size: 16px;
   font-family: "MullerBold";
@@ -49,6 +55,7 @@
   margin-bottom: 30px;
   font-size: 18px;
 }
+
 .work_item__price strong {
   text-transform: uppercase;
   font-family: "MullerBold";

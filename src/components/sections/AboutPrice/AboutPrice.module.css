@@ -1,0 +1,42 @@
+.about_price {
+  height: 168px;
+  background: url('/static/images/fetures-bg.png');
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+.about_price__inner {
+  text-align: center;
+  position: relative;
+}
+
+.about_price__inner>div:first-child {
+  font-size: 30px;
+  font-family: "MullerExtraBold";
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about_price__arrow_down {
+  height: 39px;
+  width: 29px;
+  background: url('/static/images/purpure-arrow-down.png');
+  position: relative;
+  right: 350px;
+  top: 88px;
+}
+
+.about_price__lamp_bg {
+  position: absolute;
+  width: 200px;
+  overflow: hidden;
+  right: 0;
+  top: 28px;
+  height: 140px;
+}

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -195,8 +195,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_components_sections_Header_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/sections/Header/Header */ "./src/components/sections/Header/Header.jsx");
 /* harmony import */ var _src_components_sections_Features_Features__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/sections/Features/Features */ "./src/components/sections/Features/Features.jsx");
 /* harmony import */ var _src_components_sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/components/sections/Portfolio/Portfolio */ "./src/components/sections/Portfolio/Portfolio.jsx");
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/pages/index.js";
+/* harmony import */ var _src_components_sections_Slider_Slider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/components/sections/Slider/Slider */ "./src/components/sections/Slider/Slider.jsx");
+/* harmony import */ var _src_components_sections_AboutPrice_AboutPrice__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../src/components/sections/AboutPrice/AboutPrice */ "./src/components/sections/AboutPrice/AboutPrice.jsx");
+/* harmony import */ var _src_components_sections_LampConstructor_LampConstructor__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../src/components/sections/LampConstructor/LampConstructor */ "./src/components/sections/LampConstructor/LampConstructor.jsx");
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
 
 
 
@@ -207,25 +213,37 @@ const Index = () => {
   return __jsx(_src_components_Wrapper_Wrapper__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 12
     },
     __self: undefined
   }, __jsx(_src_components_sections_Header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 13
     },
     __self: undefined
   }), __jsx(_src_components_sections_Features_Features__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: undefined
   }), __jsx(_src_components_sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 15
+    },
+    __self: undefined
+  }), __jsx(_src_components_sections_Slider_Slider__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }), __jsx(_src_components_sections_AboutPrice_AboutPrice__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
     },
     __self: undefined
   }));
@@ -248,7 +266,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Wrapper_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Wrapper.module.css */ "./src/components/Wrapper/Wrapper.module.css");
 /* harmony import */ var _Wrapper_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Wrapper_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/Wrapper/Wrapper.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/Wrapper/Wrapper.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -280,7 +298,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".-MT0qelzIkB7IhfEwNTos {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n", "", {"version":3,"sources":["/home/maximas/projects/fulogy-tz-2/src/components/Wrapper/Wrapper.module.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,kBAAkB;EAClB,eAAe;CAChB","file":"Wrapper.module.css","sourcesContent":[".main_wrapper {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".-MT0qelzIkB7IhfEwNTos {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/Wrapper/Wrapper.module.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,kBAAkB;EAClB,eAAe;CAChB","file":"Wrapper.module.css","sourcesContent":[".main_wrapper {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -302,7 +320,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Button_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Button.module.css */ "./src/components/common/Button/Button.module.css");
 /* harmony import */ var _Button_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Button_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/common/Button/Button.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/common/Button/Button.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -334,11 +352,114 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".xpfRyPW7TUnFYOuM8lndk {\n  background-color: #ffcf0d;\n  border: none;\n  height: 55px;\n  width: 254px;\n  text-transform: uppercase;\n  border-radius: 5px;\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  padding-left: 25px;\n  padding-right: 25px;\n  transition: background 0.2s linear;\n}\n\n.xpfRyPW7TUnFYOuM8lndk:hover {\n  cursor: pointer;\n  background: #ffe013;\n}\n\n.xpfRyPW7TUnFYOuM8lndk:active {\n  background: #ffcf0d;\n}\n", "", {"version":3,"sources":["/home/maximas/projects/fulogy-tz-2/src/components/common/Button/Button.module.css"],"names":[],"mappings":"AAAA;EACE,0BAA0B;EAC1B,aAAa;EACb,aAAa;EACb,aAAa;EACb,0BAA0B;EAC1B,mBAAmB;EACnB,gBAAgB;EAChB,0BAA0B;EAC1B,mBAAmB;EACnB,oBAAoB;EACpB,mCAAmC;CACpC;;AAED;EACE,gBAAgB;EAChB,oBAAoB;CACrB;;AAED;EACE,oBAAoB;CACrB","file":"Button.module.css","sourcesContent":[".button {\n  background-color: #ffcf0d;\n  border: none;\n  height: 55px;\n  width: 254px;\n  text-transform: uppercase;\n  border-radius: 5px;\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  padding-left: 25px;\n  padding-right: 25px;\n  transition: background 0.2s linear;\n}\n\n.button:hover {\n  cursor: pointer;\n  background: #ffe013;\n}\n\n.button:active {\n  background: #ffcf0d;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".xpfRyPW7TUnFYOuM8lndk {\n  background-color: #ffcf0d;\n  border: none;\n  height: 55px;\n  width: 254px;\n  text-transform: uppercase;\n  border-radius: 5px;\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  padding-left: 25px;\n  padding-right: 25px;\n  transition: background 0.2s linear;\n}\n\n.xpfRyPW7TUnFYOuM8lndk:hover {\n  cursor: pointer;\n  background: #ffe013;\n}\n\n.xpfRyPW7TUnFYOuM8lndk:active {\n  background: #ffcf0d;\n}\n", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/common/Button/Button.module.css"],"names":[],"mappings":"AAAA;EACE,0BAA0B;EAC1B,aAAa;EACb,aAAa;EACb,aAAa;EACb,0BAA0B;EAC1B,mBAAmB;EACnB,gBAAgB;EAChB,0BAA0B;EAC1B,mBAAmB;EACnB,oBAAoB;EACpB,mCAAmC;CACpC;;AAED;EACE,gBAAgB;EAChB,oBAAoB;CACrB;;AAED;EACE,oBAAoB;CACrB","file":"Button.module.css","sourcesContent":[".button {\n  background-color: #ffcf0d;\n  border: none;\n  height: 55px;\n  width: 254px;\n  text-transform: uppercase;\n  border-radius: 5px;\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  padding-left: 25px;\n  padding-right: 25px;\n  transition: background 0.2s linear;\n}\n\n.button:hover {\n  cursor: pointer;\n  background: #ffe013;\n}\n\n.button:active {\n  background: #ffcf0d;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
 	"button": "xpfRyPW7TUnFYOuM8lndk"
+};
+
+/***/ }),
+
+/***/ "./src/components/sections/AboutPrice/AboutPrice.jsx":
+/*!***********************************************************!*\
+  !*** ./src/components/sections/AboutPrice/AboutPrice.jsx ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AboutPrice.module.css */ "./src/components/sections/AboutPrice/AboutPrice.module.css");
+/* harmony import */ var _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/AboutPrice/AboutPrice.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const AboutPrice = props => {
+  return __jsx("div", {
+    className: _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.about_price,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.about_price__inner,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, "\u0447\u0442\u043E\u0431\u044B \u0443\u0437\u043D\u0430\u0442\u044C \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u0430,"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, "\u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0449\u0435\u0433\u043E \u043A \u0412\u0430\u0448\u0435\u043C\u0443 \u0434\u0438\u0437\u0430\u0439\u043D\u0443,", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }), " \u0432\u043E\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435\u0441\u044C \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440\u043E\u043C \u0440\u0430\u0441\u0447\u0435\u0442\u0430 \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u0438:")), __jsx("div", {
+    className: _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.about_price__arrow_down,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: undefined
+  }), __jsx("div", {
+    className: _AboutPrice_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.about_price__lamp_bg,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }, __jsx("img", {
+    src: "/static/images/lamp-bg.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (AboutPrice);
+
+/***/ }),
+
+/***/ "./src/components/sections/AboutPrice/AboutPrice.module.css":
+/*!******************************************************************!*\
+  !*** ./src/components/sections/AboutPrice/AboutPrice.module.css ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, ".ejO-oDLeMbqXUBr56I7Z3 {\n  height: 168px;\n  background: url('/static/images/fetures-bg.png');\n  margin-bottom: 100px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: #fff;\n  position: relative;\n}\n\n._3q4clV3Qv1E1SJ8ReXpZo0 {\n  text-align: center;\n  position: relative;\n}\n\n._3q4clV3Qv1E1SJ8ReXpZo0>div:first-child {\n  font-size: 30px;\n  font-family: \"MullerExtraBold\";\n  text-transform: uppercase;\n  margin-top: 30px;\n  margin-bottom: 10px;\n  text-align: center;\n}\n\n._3AvKDf8jtO02P9j8XjhAs2 {\n  height: 39px;\n  width: 29px;\n  background: url('/static/images/purpure-arrow-down.png');\n  position: relative;\n  right: 350px;\n  top: 88px;\n}\n\n.Km8L3igEN_yH87yuwcGYi {\n  position: absolute;\n  width: 200px;\n  overflow: hidden;\n  right: 0;\n  top: 28px;\n  height: 140px;\n}", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/AboutPrice/AboutPrice.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,iDAAiD;EACjD,qBAAqB;EACrB,cAAc;EACd,wBAAwB;EACxB,oBAAoB;EACpB,YAAY;EACZ,mBAAmB;CACpB;;AAED;EACE,mBAAmB;EACnB,mBAAmB;CACpB;;AAED;EACE,gBAAgB;EAChB,+BAA+B;EAC/B,0BAA0B;EAC1B,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;CACpB;;AAED;EACE,aAAa;EACb,YAAY;EACZ,yDAAyD;EACzD,mBAAmB;EACnB,aAAa;EACb,UAAU;CACX;;AAED;EACE,mBAAmB;EACnB,aAAa;EACb,iBAAiB;EACjB,SAAS;EACT,UAAU;EACV,cAAc;CACf","file":"AboutPrice.module.css","sourcesContent":[".about_price {\n  height: 168px;\n  background: url('/static/images/fetures-bg.png');\n  margin-bottom: 100px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: #fff;\n  position: relative;\n}\n\n.about_price__inner {\n  text-align: center;\n  position: relative;\n}\n\n.about_price__inner>div:first-child {\n  font-size: 30px;\n  font-family: \"MullerExtraBold\";\n  text-transform: uppercase;\n  margin-top: 30px;\n  margin-bottom: 10px;\n  text-align: center;\n}\n\n.about_price__arrow_down {\n  height: 39px;\n  width: 29px;\n  background: url('/static/images/purpure-arrow-down.png');\n  position: relative;\n  right: 350px;\n  top: 88px;\n}\n\n.about_price__lamp_bg {\n  position: absolute;\n  width: 200px;\n  overflow: hidden;\n  right: 0;\n  top: 28px;\n  height: 140px;\n}"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"about_price": "ejO-oDLeMbqXUBr56I7Z3",
+	"about_price__inner": "_3q4clV3Qv1E1SJ8ReXpZo0",
+	"about_price__arrow_down": "_3AvKDf8jtO02P9j8XjhAs2",
+	"about_price__lamp_bg": "Km8L3igEN_yH87yuwcGYi"
 };
 
 /***/ }),
@@ -357,7 +478,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Features_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Features.module.css */ "./src/components/sections/Features/Features.module.css");
 /* harmony import */ var _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Features_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _common_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/Button/Button */ "./src/components/common/Button/Button.jsx");
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Features/Features.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Features/Features.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -779,7 +900,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "._1tt5hGJvwe1wY43PioYRL- {\n  position: relative;\n  height: 555px;\n  background-image: url(\"/static/images/fetures-bg.png\");\n  display: flex;\n  color: #fff;\n}\n/*-----------LEFT----------*/\n.YmUyCD7VYi8wyU106LtBw {\n  width: 436px;\n  /* outline: 1px solid sandybrown; */\n  margin-left: 36px;\n  display: flex;\n  justify-content: center;\n}\n._2rdaz6hSz_ooq5NXmRmWes {\n  width: 276px;\n  z-index: 9999;\n  position: relative;\n  /* outline: 1px solid red; */\n}\n._17YJwJQtnI1ZfZoAAzTL1i {\n  margin-top: 60px;\n  font-family: \"MullerExtraBold\";\n  font-size: 30px;\n}\n._83cD3cqbafvmXkgvjmO4 {\n  font-size: 20px;\n  margin-top: 28px;\n  line-height: 1.5;\n}\n._83cD3cqbafvmXkgvjmO4 span,\n._3Ez4u-40QODAPmRIPohzyF span {\n  font-family: \"MullerExtraBold\";\n  color: #ffcf0d;\n  font-size: 20px;\n}\n.EDlFqY0bMzH_2I_M8sOBz {\n  margin-top: 46px;\n  margin-bottom: 66px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n}\n\n._3Ez4u-40QODAPmRIPohzyF {\n  margin-top: 25px;\n  font-size: 16px;\n}\n\n.RMFAMXrl4-GwmIQlpqEoc {\n  width: 88px;\n  height: 62px;\n  background-image: url(\"/static/images/features-arrow.png\");\n  position: absolute;\n  top: 240px;\n  right: 10px;\n}\n\n._32TM9UolTxogFvtcKCsX41 {\n  position: absolute;\n  top: 20px;\n  left: 15px;\n  width: 178px;\n  height: 134px;\n  background-image: url(\"/static/images/features-quotes.png\");\n}\n\n._3LLT1Tmb48kOEt33kVAYlh {\n  width: 95px;\n  display: flex;\n  justify-content: space-between;\n  margin-top: 18px;\n}\n._3LLT1Tmb48kOEt33kVAYlh div {\n  height: 19px;\n  width: 19px;\n  display: inline-block;\n  background-color: #fff;\n  border-radius: 10px;\n}\n._3LLT1Tmb48kOEt33kVAYlh img {\n  height: 19px;\n  width: 19px;\n}\n\n/*-------RIGHT---------*/\n._2D3yCkInqOgjQ6JcAicSRZ {\n  width: 681px;\n  height: 403px;\n  display: flex;\n  justify-content: space-between;\n  margin-top: 60px;\n}\n._2D3yCkInqOgjQ6JcAicSRZ table {\n  width: 100%;\n  height: 100%;\n}\n._2D3yCkInqOgjQ6JcAicSRZ table tr {\n  vertical-align: top;\n}\n._2D3yCkInqOgjQ6JcAicSRZ table tr:nth-child(2) ._3LHKQb7TK2_sT9RA8gsp5w {\n  margin-top: 40px;\n}\n._2D3yCkInqOgjQ6JcAicSRZ table td {\n  margin-bottom: 30px;\n}\n\n._1Lh30CTTZXRrn2i4pRAdb {\n  display: flex;\n  flex-direction: column;\n  max-width: 250px;\n  font-size: 20px;\n}\n._3LHKQb7TK2_sT9RA8gsp5w {\n  font-size: 36px;\n  font-family: \"MullerBold\";\n  margin-bottom: 30px;\n}\n", "", {"version":3,"sources":["/home/maximas/projects/fulogy-tz-2/src/components/sections/Features/Features.module.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,cAAc;EACd,uDAAuD;EACvD,cAAc;EACd,YAAY;CACb;AACD,6BAA6B;AAC7B;EACE,aAAa;EACb,oCAAoC;EACpC,kBAAkB;EAClB,cAAc;EACd,wBAAwB;CACzB;AACD;EACE,aAAa;EACb,cAAc;EACd,mBAAmB;EACnB,6BAA6B;CAC9B;AACD;EACE,iBAAiB;EACjB,+BAA+B;EAC/B,gBAAgB;CACjB;AACD;EACE,gBAAgB;EAChB,iBAAiB;EACjB,iBAAiB;CAClB;AACD;;EAEE,+BAA+B;EAC/B,eAAe;EACf,gBAAgB;CACjB;AACD;EACE,iBAAiB;EACjB,oBAAoB;EACpB,0BAA0B;EAC1B,0BAA0B;CAC3B;;AAED;EACE,iBAAiB;EACjB,gBAAgB;CACjB;;AAED;EACE,YAAY;EACZ,aAAa;EACb,2DAA2D;EAC3D,mBAAmB;EACnB,WAAW;EACX,YAAY;CACb;;AAED;EACE,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,aAAa;EACb,cAAc;EACd,4DAA4D;CAC7D;;AAED;EACE,YAAY;EACZ,cAAc;EACd,+BAA+B;EAC/B,iBAAiB;CAClB;AACD;EACE,aAAa;EACb,YAAY;EACZ,sBAAsB;EACtB,uBAAuB;EACvB,oBAAoB;CACrB;AACD;EACE,aAAa;EACb,YAAY;CACb;;AAED,yBAAyB;AACzB;EACE,aAAa;EACb,cAAc;EACd,cAAc;EACd,+BAA+B;EAC/B,iBAAiB;CAClB;AACD;EACE,YAAY;EACZ,aAAa;CACd;AACD;EACE,oBAAoB;CACrB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,oBAAoB;CACrB;;AAED;EACE,cAAc;EACd,uBAAuB;EACvB,iBAAiB;EACjB,gBAAgB;CACjB;AACD;EACE,gBAAgB;EAChB,0BAA0B;EAC1B,oBAAoB;CACrB","file":"Features.module.css","sourcesContent":[".features {\n  position: relative;\n  height: 555px;\n  background-image: url(\"/static/images/fetures-bg.png\");\n  display: flex;\n  color: #fff;\n}\n/*-----------LEFT----------*/\n.features__left {\n  width: 436px;\n  /* outline: 1px solid sandybrown; */\n  margin-left: 36px;\n  display: flex;\n  justify-content: center;\n}\n.features__left_inner {\n  width: 276px;\n  z-index: 9999;\n  position: relative;\n  /* outline: 1px solid red; */\n}\n.features__left_inner__header {\n  margin-top: 60px;\n  font-family: \"MullerExtraBold\";\n  font-size: 30px;\n}\n.features__left_inner__desc {\n  font-size: 20px;\n  margin-top: 28px;\n  line-height: 1.5;\n}\n.features__left_inner__desc span,\n.features__left_inner__phone span {\n  font-family: \"MullerExtraBold\";\n  color: #ffcf0d;\n  font-size: 20px;\n}\n.features__left_inner__label {\n  margin-top: 46px;\n  margin-bottom: 66px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n}\n\n.features__left_inner__phone {\n  margin-top: 25px;\n  font-size: 16px;\n}\n\n.features__left_inner__arrow {\n  width: 88px;\n  height: 62px;\n  background-image: url(\"/static/images/features-arrow.png\");\n  position: absolute;\n  top: 240px;\n  right: 10px;\n}\n\n.features__left__quotes {\n  position: absolute;\n  top: 20px;\n  left: 15px;\n  width: 178px;\n  height: 134px;\n  background-image: url(\"/static/images/features-quotes.png\");\n}\n\n.features__left_inner__social {\n  width: 95px;\n  display: flex;\n  justify-content: space-between;\n  margin-top: 18px;\n}\n.features__left_inner__social div {\n  height: 19px;\n  width: 19px;\n  display: inline-block;\n  background-color: #fff;\n  border-radius: 10px;\n}\n.features__left_inner__social img {\n  height: 19px;\n  width: 19px;\n}\n\n/*-------RIGHT---------*/\n.features__right_inner {\n  width: 681px;\n  height: 403px;\n  display: flex;\n  justify-content: space-between;\n  margin-top: 60px;\n}\n.features__right_inner table {\n  width: 100%;\n  height: 100%;\n}\n.features__right_inner table tr {\n  vertical-align: top;\n}\n.features__right_inner table tr:nth-child(2) .feature_number {\n  margin-top: 40px;\n}\n.features__right_inner table td {\n  margin-bottom: 30px;\n}\n\n.features__right_inner__feature {\n  display: flex;\n  flex-direction: column;\n  max-width: 250px;\n  font-size: 20px;\n}\n.feature_number {\n  font-size: 36px;\n  font-family: \"MullerBold\";\n  margin-bottom: 30px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "._1tt5hGJvwe1wY43PioYRL- {\n  position: relative;\n  height: 555px;\n  background-image: url(\"/static/images/fetures-bg.png\");\n  display: flex;\n  color: #fff;\n}\n/*-----------LEFT----------*/\n.YmUyCD7VYi8wyU106LtBw {\n  width: 436px;\n  /* outline: 1px solid sandybrown; */\n  margin-left: 36px;\n  display: flex;\n  justify-content: center;\n}\n._2rdaz6hSz_ooq5NXmRmWes {\n  width: 276px;\n  z-index: 9999;\n  position: relative;\n  /* outline: 1px solid red; */\n}\n._17YJwJQtnI1ZfZoAAzTL1i {\n  margin-top: 60px;\n  font-family: \"MullerExtraBold\";\n  font-size: 30px;\n}\n._83cD3cqbafvmXkgvjmO4 {\n  font-size: 20px;\n  margin-top: 28px;\n  line-height: 1.5;\n}\n._83cD3cqbafvmXkgvjmO4 span,\n._3Ez4u-40QODAPmRIPohzyF span {\n  font-family: \"MullerExtraBold\";\n  color: #ffcf0d;\n  font-size: 20px;\n}\n.EDlFqY0bMzH_2I_M8sOBz {\n  margin-top: 46px;\n  margin-bottom: 66px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n}\n\n._3Ez4u-40QODAPmRIPohzyF {\n  margin-top: 25px;\n  font-size: 16px;\n}\n\n.RMFAMXrl4-GwmIQlpqEoc {\n  width: 88px;\n  height: 62px;\n  background-image: url(\"/static/images/features-arrow.png\");\n  position: absolute;\n  top: 240px;\n  right: 10px;\n}\n\n._32TM9UolTxogFvtcKCsX41 {\n  position: absolute;\n  top: 20px;\n  left: 15px;\n  width: 178px;\n  height: 134px;\n  background-image: url(\"/static/images/features-quotes.png\");\n}\n\n._3LLT1Tmb48kOEt33kVAYlh {\n  width: 95px;\n  display: flex;\n  justify-content: space-between;\n  margin-top: 18px;\n}\n._3LLT1Tmb48kOEt33kVAYlh div {\n  height: 19px;\n  width: 19px;\n  display: inline-block;\n  background-color: #fff;\n  border-radius: 10px;\n}\n._3LLT1Tmb48kOEt33kVAYlh img {\n  height: 19px;\n  width: 19px;\n}\n\n/*-------RIGHT---------*/\n._2D3yCkInqOgjQ6JcAicSRZ {\n  width: 681px;\n  height: 403px;\n  display: flex;\n  justify-content: space-between;\n  margin-top: 60px;\n}\n._2D3yCkInqOgjQ6JcAicSRZ table {\n  width: 100%;\n  height: 100%;\n}\n._2D3yCkInqOgjQ6JcAicSRZ table tr {\n  vertical-align: top;\n}\n._2D3yCkInqOgjQ6JcAicSRZ table tr:nth-child(2) ._3LHKQb7TK2_sT9RA8gsp5w {\n  margin-top: 40px;\n}\n._2D3yCkInqOgjQ6JcAicSRZ table td {\n  margin-bottom: 30px;\n}\n\n._1Lh30CTTZXRrn2i4pRAdb {\n  display: flex;\n  flex-direction: column;\n  max-width: 250px;\n  font-size: 20px;\n}\n._3LHKQb7TK2_sT9RA8gsp5w {\n  font-size: 36px;\n  font-family: \"MullerBold\";\n  margin-bottom: 30px;\n}\n", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/Features/Features.module.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,cAAc;EACd,uDAAuD;EACvD,cAAc;EACd,YAAY;CACb;AACD,6BAA6B;AAC7B;EACE,aAAa;EACb,oCAAoC;EACpC,kBAAkB;EAClB,cAAc;EACd,wBAAwB;CACzB;AACD;EACE,aAAa;EACb,cAAc;EACd,mBAAmB;EACnB,6BAA6B;CAC9B;AACD;EACE,iBAAiB;EACjB,+BAA+B;EAC/B,gBAAgB;CACjB;AACD;EACE,gBAAgB;EAChB,iBAAiB;EACjB,iBAAiB;CAClB;AACD;;EAEE,+BAA+B;EAC/B,eAAe;EACf,gBAAgB;CACjB;AACD;EACE,iBAAiB;EACjB,oBAAoB;EACpB,0BAA0B;EAC1B,0BAA0B;CAC3B;;AAED;EACE,iBAAiB;EACjB,gBAAgB;CACjB;;AAED;EACE,YAAY;EACZ,aAAa;EACb,2DAA2D;EAC3D,mBAAmB;EACnB,WAAW;EACX,YAAY;CACb;;AAED;EACE,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,aAAa;EACb,cAAc;EACd,4DAA4D;CAC7D;;AAED;EACE,YAAY;EACZ,cAAc;EACd,+BAA+B;EAC/B,iBAAiB;CAClB;AACD;EACE,aAAa;EACb,YAAY;EACZ,sBAAsB;EACtB,uBAAuB;EACvB,oBAAoB;CACrB;AACD;EACE,aAAa;EACb,YAAY;CACb;;AAED,yBAAyB;AACzB;EACE,aAAa;EACb,cAAc;EACd,cAAc;EACd,+BAA+B;EAC/B,iBAAiB;CAClB;AACD;EACE,YAAY;EACZ,aAAa;CACd;AACD;EACE,oBAAoB;CACrB;AACD;EACE,iBAAiB;CAClB;AACD;EACE,oBAAoB;CACrB;;AAED;EACE,cAAc;EACd,uBAAuB;EACvB,iBAAiB;EACjB,gBAAgB;CACjB;AACD;EACE,gBAAgB;EAChB,0BAA0B;EAC1B,oBAAoB;CACrB","file":"Features.module.css","sourcesContent":[".features {\n  position: relative;\n  height: 555px;\n  background-image: url(\"/static/images/fetures-bg.png\");\n  display: flex;\n  color: #fff;\n}\n/*-----------LEFT----------*/\n.features__left {\n  width: 436px;\n  /* outline: 1px solid sandybrown; */\n  margin-left: 36px;\n  display: flex;\n  justify-content: center;\n}\n.features__left_inner {\n  width: 276px;\n  z-index: 9999;\n  position: relative;\n  /* outline: 1px solid red; */\n}\n.features__left_inner__header {\n  margin-top: 60px;\n  font-family: \"MullerExtraBold\";\n  font-size: 30px;\n}\n.features__left_inner__desc {\n  font-size: 20px;\n  margin-top: 28px;\n  line-height: 1.5;\n}\n.features__left_inner__desc span,\n.features__left_inner__phone span {\n  font-family: \"MullerExtraBold\";\n  color: #ffcf0d;\n  font-size: 20px;\n}\n.features__left_inner__label {\n  margin-top: 46px;\n  margin-bottom: 66px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n}\n\n.features__left_inner__phone {\n  margin-top: 25px;\n  font-size: 16px;\n}\n\n.features__left_inner__arrow {\n  width: 88px;\n  height: 62px;\n  background-image: url(\"/static/images/features-arrow.png\");\n  position: absolute;\n  top: 240px;\n  right: 10px;\n}\n\n.features__left__quotes {\n  position: absolute;\n  top: 20px;\n  left: 15px;\n  width: 178px;\n  height: 134px;\n  background-image: url(\"/static/images/features-quotes.png\");\n}\n\n.features__left_inner__social {\n  width: 95px;\n  display: flex;\n  justify-content: space-between;\n  margin-top: 18px;\n}\n.features__left_inner__social div {\n  height: 19px;\n  width: 19px;\n  display: inline-block;\n  background-color: #fff;\n  border-radius: 10px;\n}\n.features__left_inner__social img {\n  height: 19px;\n  width: 19px;\n}\n\n/*-------RIGHT---------*/\n.features__right_inner {\n  width: 681px;\n  height: 403px;\n  display: flex;\n  justify-content: space-between;\n  margin-top: 60px;\n}\n.features__right_inner table {\n  width: 100%;\n  height: 100%;\n}\n.features__right_inner table tr {\n  vertical-align: top;\n}\n.features__right_inner table tr:nth-child(2) .feature_number {\n  margin-top: 40px;\n}\n.features__right_inner table td {\n  margin-bottom: 30px;\n}\n\n.features__right_inner__feature {\n  display: flex;\n  flex-direction: column;\n  max-width: 250px;\n  font-size: 20px;\n}\n.feature_number {\n  font-size: 36px;\n  font-family: \"MullerBold\";\n  margin-bottom: 30px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -816,7 +937,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../common/Button/Button */ "./src/components/common/Button/Button.jsx");
 /* harmony import */ var _VideoButton_VideoButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./VideoButton/VideoButton */ "./src/components/sections/Header/Content/VideoButton/VideoButton.jsx");
 /* harmony import */ var _LampSlider_LampSlider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./LampSlider/LampSlider */ "./src/components/sections/Header/Content/LampSlider/LampSlider.jsx");
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/Content.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Content/Content.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -928,7 +1049,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "._1IWZPnFLR7Yk7rETUPeDIE {\n  display: flex;\n  height: 490px;\n  /* outline: 1px solid salmon; */\n  justify-content: space-between;\n}\n\n/*-----Content Left-----*/\n._3hoW4pvCtVakSCX-350cUr {\n  /* outline: 1px solid lightpink; */\n  flex: 1;\n}\n._3hoW4pvCtVakSCX-350cUr h1 {\n  margin-top: 65px;\n  font-size: 36px;\n  line-height: 1.4;\n  text-transform: uppercase;\n  font-family: \"MullerExtraBold\";\n}\n._1nq_F45dZ6i_VVjlfyiXPk {\n  margin-top: 25px;\n  margin-bottom: 25px;\n  width: 358px;\n  height: 80px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n._19ZmYfPBPDT_Jikr5VRaMm {\n  border-bottom: 2px solid #f8f8f8;\n  display: inline-block;\n  padding-bottom: 20px;\n  font-size: 16px;\n}\n", "", {"version":3,"sources":["/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/Content.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,cAAc;EACd,gCAAgC;EAChC,+BAA+B;CAChC;;AAED,0BAA0B;AAC1B;EACE,mCAAmC;EACnC,QAAQ;CACT;AACD;EACE,iBAAiB;EACjB,gBAAgB;EAChB,iBAAiB;EACjB,0BAA0B;EAC1B,+BAA+B;CAChC;AACD;EACE,iBAAiB;EACjB,oBAAoB;EACpB,aAAa;EACb,aAAa;EACb,cAAc;EACd,+BAA+B;EAC/B,oBAAoB;CACrB;AACD;EACE,iCAAiC;EACjC,sBAAsB;EACtB,qBAAqB;EACrB,gBAAgB;CACjB","file":"Content.module.css","sourcesContent":[".header__content {\n  display: flex;\n  height: 490px;\n  /* outline: 1px solid salmon; */\n  justify-content: space-between;\n}\n\n/*-----Content Left-----*/\n.content_left {\n  /* outline: 1px solid lightpink; */\n  flex: 1;\n}\n.content_left h1 {\n  margin-top: 65px;\n  font-size: 36px;\n  line-height: 1.4;\n  text-transform: uppercase;\n  font-family: \"MullerExtraBold\";\n}\n.content_left__get_video {\n  margin-top: 25px;\n  margin-bottom: 25px;\n  width: 358px;\n  height: 80px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.get_video__info {\n  border-bottom: 2px solid #f8f8f8;\n  display: inline-block;\n  padding-bottom: 20px;\n  font-size: 16px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "._1IWZPnFLR7Yk7rETUPeDIE {\n  display: flex;\n  height: 490px;\n  justify-content: space-between;\n}\n\n/*-----Content Left-----*/\n._3hoW4pvCtVakSCX-350cUr {\n  flex: 1;\n}\n\n._3hoW4pvCtVakSCX-350cUr h1 {\n  margin-top: 65px;\n  font-size: 36px;\n  line-height: 1.4;\n  text-transform: uppercase;\n  font-family: \"MullerExtraBold\";\n}\n\n._1nq_F45dZ6i_VVjlfyiXPk {\n  margin-top: 25px;\n  margin-bottom: 25px;\n  width: 358px;\n  height: 80px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n._19ZmYfPBPDT_Jikr5VRaMm {\n  border-bottom: 2px solid #f8f8f8;\n  display: inline-block;\n  padding-bottom: 20px;\n  font-size: 16px;\n}", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Content/Content.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,cAAc;EACd,+BAA+B;CAChC;;AAED,0BAA0B;AAC1B;EACE,QAAQ;CACT;;AAED;EACE,iBAAiB;EACjB,gBAAgB;EAChB,iBAAiB;EACjB,0BAA0B;EAC1B,+BAA+B;CAChC;;AAED;EACE,iBAAiB;EACjB,oBAAoB;EACpB,aAAa;EACb,aAAa;EACb,cAAc;EACd,+BAA+B;EAC/B,oBAAoB;CACrB;;AAED;EACE,iCAAiC;EACjC,sBAAsB;EACtB,qBAAqB;EACrB,gBAAgB;CACjB","file":"Content.module.css","sourcesContent":[".header__content {\n  display: flex;\n  height: 490px;\n  justify-content: space-between;\n}\n\n/*-----Content Left-----*/\n.content_left {\n  flex: 1;\n}\n\n.content_left h1 {\n  margin-top: 65px;\n  font-size: 36px;\n  line-height: 1.4;\n  text-transform: uppercase;\n  font-family: \"MullerExtraBold\";\n}\n\n.content_left__get_video {\n  margin-top: 25px;\n  margin-bottom: 25px;\n  width: 358px;\n  height: 80px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.get_video__info {\n  border-bottom: 2px solid #f8f8f8;\n  display: inline-block;\n  padding-bottom: 20px;\n  font-size: 16px;\n}"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -953,7 +1074,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LampSlider.module.css */ "./src/components/sections/Header/Content/LampSlider/LampSlider.module.css");
 /* harmony import */ var _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/LampSlider/LampSlider.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Content/LampSlider/LampSlider.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1058,7 +1179,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../../node_module
 
 
 // module
-exports.push([module.i, "._3eXmOpB5uw2LJu2wWU498P {\n  flex: 1;\n  /* outline: 1px solid lime; */\n  background-image: url(\"/static/images/Ellipse.png\");\n  background-size: 840px auto;\n  background-position: 0px -80px;\n  background-repeat: no-repeat;\n  position: relative;\n}\n._3eXmOpB5uw2LJu2wWU498P > img {\n  position: absolute;\n  top: 130px;\n  left: 60px;\n}\n\n._241UdVFb4FNYAqCy91RFkw {\n  background-color: #fff;\n  width: 235px;\n  height: 40px;\n  border-radius: 20px;\n  position: absolute;\n  top: 60px;\n  left: 20px;\n  z-index: 9999;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv {\n  position: absolute;\n  right: 10px;\n  top: 10px;\n}\n._2dE8vaSAvhW9UeJ5TO78dv > div {\n  border-radius: 6px;\n  height: 12px;\n  width: 12px;\n  display: inline-block;\n  margin-right: 15px;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv ._3zohH3lK7tytolXka2sqkP {\n  background-color: #d9c79c;\n}\n._2dE8vaSAvhW9UeJ5TO78dv .e4YssttZsuODe2mZGZZ-q {\n  border: 1px solid #e6e6e6;\n}\n._2dE8vaSAvhW9UeJ5TO78dv ._13KP-huGdS-TnheiDekU87 {\n  background-color: #595959;\n}\n._2dE8vaSAvhW9UeJ5TO78dv .at1Wa3FD-MDA0GrzIogKz {\n  background-color: #c9c9c9;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv > div:hover {\n  cursor: pointer;\n}\n\n._3CgKAEOL-TuaQMuGOo7j9C {\n  width: 500px;\n  height: auto;\n  overflow: hidden;\n  position: absolute;\n  right: 0;\n}\n._3CgKAEOL-TuaQMuGOo7j9C > img {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  top: 20px;\n  right: -200px;\n}\n", "", {"version":3,"sources":["/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/LampSlider/LampSlider.module.css"],"names":[],"mappings":"AAAA;EACE,QAAQ;EACR,8BAA8B;EAC9B,oDAAoD;EACpD,4BAA4B;EAC5B,+BAA+B;EAC/B,6BAA6B;EAC7B,mBAAmB;CACpB;AACD;EACE,mBAAmB;EACnB,WAAW;EACX,WAAW;CACZ;;AAED;EACE,uBAAuB;EACvB,aAAa;EACb,aAAa;EACb,oBAAoB;EACpB,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,cAAc;CACf;;AAED;EACE,mBAAmB;EACnB,YAAY;EACZ,UAAU;CACX;AACD;EACE,mBAAmB;EACnB,aAAa;EACb,YAAY;EACZ,sBAAsB;EACtB,mBAAmB;CACpB;;AAED;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;AACD;EACE,0BAA0B;CAC3B;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,aAAa;EACb,aAAa;EACb,iBAAiB;EACjB,mBAAmB;EACnB,SAAS;CACV;AACD;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,UAAU;EACV,cAAc;CACf","file":"LampSlider.module.css","sourcesContent":[".content_right {\n  flex: 1;\n  /* outline: 1px solid lime; */\n  background-image: url(\"/static/images/Ellipse.png\");\n  background-size: 840px auto;\n  background-position: 0px -80px;\n  background-repeat: no-repeat;\n  position: relative;\n}\n.content_right > img {\n  position: absolute;\n  top: 130px;\n  left: 60px;\n}\n\n.content_right__switch {\n  background-color: #fff;\n  width: 235px;\n  height: 40px;\n  border-radius: 20px;\n  position: absolute;\n  top: 60px;\n  left: 20px;\n  z-index: 9999;\n}\n\n.switch_group {\n  position: absolute;\n  right: 10px;\n  top: 10px;\n}\n.switch_group > div {\n  border-radius: 6px;\n  height: 12px;\n  width: 12px;\n  display: inline-block;\n  margin-right: 15px;\n}\n\n.switch_group .switch_gold {\n  background-color: #d9c79c;\n}\n.switch_group .switch_white {\n  border: 1px solid #e6e6e6;\n}\n.switch_group .switch_black {\n  background-color: #595959;\n}\n.switch_group .switch_gray {\n  background-color: #c9c9c9;\n}\n\n.switch_group > div:hover {\n  cursor: pointer;\n}\n\n.content_right__lamp_variant {\n  width: 500px;\n  height: auto;\n  overflow: hidden;\n  position: absolute;\n  right: 0;\n}\n.content_right__lamp_variant > img {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  top: 20px;\n  right: -200px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "._3eXmOpB5uw2LJu2wWU498P {\n  flex: 1;\n  background-image: url(\"/static/images/Ellipse.png\");\n  background-size: 840px auto;\n  background-position: 0px -80px;\n  background-repeat: no-repeat;\n  position: relative;\n}\n\n._3eXmOpB5uw2LJu2wWU498P>img {\n  position: absolute;\n  top: 130px;\n  left: 60px;\n}\n\n._241UdVFb4FNYAqCy91RFkw {\n  background-color: #fff;\n  width: 235px;\n  height: 40px;\n  border-radius: 20px;\n  position: absolute;\n  top: 60px;\n  left: 20px;\n  z-index: 9999;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv {\n  position: absolute;\n  right: 10px;\n  top: 10px;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv>div {\n  border-radius: 6px;\n  height: 12px;\n  width: 12px;\n  display: inline-block;\n  margin-right: 15px;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv ._3zohH3lK7tytolXka2sqkP {\n  background-color: #d9c79c;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv .e4YssttZsuODe2mZGZZ-q {\n  border: 1px solid #e6e6e6;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv ._13KP-huGdS-TnheiDekU87 {\n  background-color: #595959;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv .at1Wa3FD-MDA0GrzIogKz {\n  background-color: #c9c9c9;\n}\n\n._2dE8vaSAvhW9UeJ5TO78dv>div:hover {\n  cursor: pointer;\n}\n\n._3CgKAEOL-TuaQMuGOo7j9C {\n  width: 500px;\n  height: auto;\n  overflow: hidden;\n  position: absolute;\n  right: 0;\n}\n\n._3CgKAEOL-TuaQMuGOo7j9C>img {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  top: 20px;\n  right: -200px;\n}", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Content/LampSlider/LampSlider.module.css"],"names":[],"mappings":"AAAA;EACE,QAAQ;EACR,oDAAoD;EACpD,4BAA4B;EAC5B,+BAA+B;EAC/B,6BAA6B;EAC7B,mBAAmB;CACpB;;AAED;EACE,mBAAmB;EACnB,WAAW;EACX,WAAW;CACZ;;AAED;EACE,uBAAuB;EACvB,aAAa;EACb,aAAa;EACb,oBAAoB;EACpB,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,cAAc;CACf;;AAED;EACE,mBAAmB;EACnB,YAAY;EACZ,UAAU;CACX;;AAED;EACE,mBAAmB;EACnB,aAAa;EACb,YAAY;EACZ,sBAAsB;EACtB,mBAAmB;CACpB;;AAED;EACE,0BAA0B;CAC3B;;AAED;EACE,0BAA0B;CAC3B;;AAED;EACE,0BAA0B;CAC3B;;AAED;EACE,0BAA0B;CAC3B;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,aAAa;EACb,aAAa;EACb,iBAAiB;EACjB,mBAAmB;EACnB,SAAS;CACV;;AAED;EACE,YAAY;EACZ,aAAa;EACb,mBAAmB;EACnB,UAAU;EACV,cAAc;CACf","file":"LampSlider.module.css","sourcesContent":[".content_right {\n  flex: 1;\n  background-image: url(\"/static/images/Ellipse.png\");\n  background-size: 840px auto;\n  background-position: 0px -80px;\n  background-repeat: no-repeat;\n  position: relative;\n}\n\n.content_right>img {\n  position: absolute;\n  top: 130px;\n  left: 60px;\n}\n\n.content_right__switch {\n  background-color: #fff;\n  width: 235px;\n  height: 40px;\n  border-radius: 20px;\n  position: absolute;\n  top: 60px;\n  left: 20px;\n  z-index: 9999;\n}\n\n.switch_group {\n  position: absolute;\n  right: 10px;\n  top: 10px;\n}\n\n.switch_group>div {\n  border-radius: 6px;\n  height: 12px;\n  width: 12px;\n  display: inline-block;\n  margin-right: 15px;\n}\n\n.switch_group .switch_gold {\n  background-color: #d9c79c;\n}\n\n.switch_group .switch_white {\n  border: 1px solid #e6e6e6;\n}\n\n.switch_group .switch_black {\n  background-color: #595959;\n}\n\n.switch_group .switch_gray {\n  background-color: #c9c9c9;\n}\n\n.switch_group>div:hover {\n  cursor: pointer;\n}\n\n.content_right__lamp_variant {\n  width: 500px;\n  height: auto;\n  overflow: hidden;\n  position: absolute;\n  right: 0;\n}\n\n.content_right__lamp_variant>img {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  top: 20px;\n  right: -200px;\n}"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -1087,7 +1208,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./VideoButton.module.css */ "./src/components/sections/Header/Content/VideoButton/VideoButton.module.css");
 /* harmony import */ var _VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/VideoButton/VideoButton.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Content/VideoButton/VideoButton.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1185,7 +1306,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../../node_module
 
 
 // module
-exports.push([module.i, ".Jw1YrivAMa1ZgQtkmCJBo {\n  width: 80px;\n  height: 80px;\n  /* background: #fff9f5; */\n  border-radius: 40px;\n  display: inline-block;\n  cursor: pointer;\n}\n\n.OxV8J_BMeO3tokAICc8JY {\n  width: 54px;\n  height: 54px;\n  /* background: #ffcf0d; */\n  border-radius: 40px;\n  margin: 13px auto;\n  position: relative;\n}\n.rNng5fjQdei4Wu-4FqcZ4 {\n  width: 38px;\n  height: 38px;\n  background-image: url(\"/static/images/video-button-bg.png\");\n  border-radius: 40px;\n  position: absolute;\n  top: 8px;\n  left: 8px;\n}\n", "", {"version":3,"sources":["/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/VideoButton/VideoButton.module.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,aAAa;EACb,0BAA0B;EAC1B,oBAAoB;EACpB,sBAAsB;EACtB,gBAAgB;CACjB;;AAED;EACE,YAAY;EACZ,aAAa;EACb,0BAA0B;EAC1B,oBAAoB;EACpB,kBAAkB;EAClB,mBAAmB;CACpB;AACD;EACE,YAAY;EACZ,aAAa;EACb,4DAA4D;EAC5D,oBAAoB;EACpB,mBAAmB;EACnB,SAAS;EACT,UAAU;CACX","file":"VideoButton.module.css","sourcesContent":[".get_video__button {\n  width: 80px;\n  height: 80px;\n  /* background: #fff9f5; */\n  border-radius: 40px;\n  display: inline-block;\n  cursor: pointer;\n}\n\n.get_video__button_yellow {\n  width: 54px;\n  height: 54px;\n  /* background: #ffcf0d; */\n  border-radius: 40px;\n  margin: 13px auto;\n  position: relative;\n}\n.get_video__button_bg {\n  width: 38px;\n  height: 38px;\n  background-image: url(\"/static/images/video-button-bg.png\");\n  border-radius: 40px;\n  position: absolute;\n  top: 8px;\n  left: 8px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".Jw1YrivAMa1ZgQtkmCJBo {\n  width: 80px;\n  height: 80px;\n  /* background: #fff9f5; */\n  border-radius: 40px;\n  display: inline-block;\n  cursor: pointer;\n}\n\n.OxV8J_BMeO3tokAICc8JY {\n  width: 54px;\n  height: 54px;\n  /* background: #ffcf0d; */\n  border-radius: 40px;\n  margin: 13px auto;\n  position: relative;\n}\n.rNng5fjQdei4Wu-4FqcZ4 {\n  width: 38px;\n  height: 38px;\n  background-image: url(\"/static/images/video-button-bg.png\");\n  border-radius: 40px;\n  position: absolute;\n  top: 8px;\n  left: 8px;\n}\n", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Content/VideoButton/VideoButton.module.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,aAAa;EACb,0BAA0B;EAC1B,oBAAoB;EACpB,sBAAsB;EACtB,gBAAgB;CACjB;;AAED;EACE,YAAY;EACZ,aAAa;EACb,0BAA0B;EAC1B,oBAAoB;EACpB,kBAAkB;EAClB,mBAAmB;CACpB;AACD;EACE,YAAY;EACZ,aAAa;EACb,4DAA4D;EAC5D,oBAAoB;EACpB,mBAAmB;EACnB,SAAS;EACT,UAAU;CACX","file":"VideoButton.module.css","sourcesContent":[".get_video__button {\n  width: 80px;\n  height: 80px;\n  /* background: #fff9f5; */\n  border-radius: 40px;\n  display: inline-block;\n  cursor: pointer;\n}\n\n.get_video__button_yellow {\n  width: 54px;\n  height: 54px;\n  /* background: #ffcf0d; */\n  border-radius: 40px;\n  margin: 13px auto;\n  position: relative;\n}\n.get_video__button_bg {\n  width: 38px;\n  height: 38px;\n  background-image: url(\"/static/images/video-button-bg.png\");\n  border-radius: 40px;\n  position: absolute;\n  top: 8px;\n  left: 8px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -1211,7 +1332,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Header_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar/Navbar */ "./src/components/sections/Header/Navbar/Navbar.jsx");
 /* harmony import */ var _Content_Content__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Content/Content */ "./src/components/sections/Header/Content/Content.jsx");
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Header.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Header.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1382,7 +1503,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "._1UYzSw_ddStvhkZjUVOo7y {\n  height: 740px;\n}\n.Zr1fwkeaTJFonWLdkKucE {\n  display: flex;\n  justify-content: flex-start;\n}\n\n._31WzPc3o1QZXRh1l5nucmN {\n  display: flex;\n  justify-content: center;\n  width: 302px;\n  height: 97px;\n  align-items: center;\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  border: 1px solid #edf1f2;\n  border-right: none;\n}\n._31WzPc3o1QZXRh1l5nucmN:last-child {\n  border-right: 1px solid #edf1f2;\n}\n\n._31WzPc3o1QZXRh1l5nucmN div {\n  margin-left: 14px;\n}\n", "", {"version":3,"sources":["/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Header.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;CACf;AACD;EACE,cAAc;EACd,4BAA4B;CAC7B;;AAED;EACE,cAAc;EACd,wBAAwB;EACxB,aAAa;EACb,aAAa;EACb,oBAAoB;EACpB,gBAAgB;EAChB,0BAA0B;EAC1B,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;CACpB;AACD;EACE,gCAAgC;CACjC;;AAED;EACE,kBAAkB;CACnB","file":"Header.module.css","sourcesContent":[".header {\n  height: 740px;\n}\n.header__props {\n  display: flex;\n  justify-content: flex-start;\n}\n\n.header__props_prop {\n  display: flex;\n  justify-content: center;\n  width: 302px;\n  height: 97px;\n  align-items: center;\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  border: 1px solid #edf1f2;\n  border-right: none;\n}\n.header__props_prop:last-child {\n  border-right: 1px solid #edf1f2;\n}\n\n.header__props_prop div {\n  margin-left: 14px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "._1UYzSw_ddStvhkZjUVOo7y {\n  height: 740px;\n}\n.Zr1fwkeaTJFonWLdkKucE {\n  display: flex;\n  justify-content: flex-start;\n}\n\n._31WzPc3o1QZXRh1l5nucmN {\n  display: flex;\n  justify-content: center;\n  width: 302px;\n  height: 97px;\n  align-items: center;\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  border: 1px solid #edf1f2;\n  border-right: none;\n}\n._31WzPc3o1QZXRh1l5nucmN:last-child {\n  border-right: 1px solid #edf1f2;\n}\n\n._31WzPc3o1QZXRh1l5nucmN div {\n  margin-left: 14px;\n}\n", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Header.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;CACf;AACD;EACE,cAAc;EACd,4BAA4B;CAC7B;;AAED;EACE,cAAc;EACd,wBAAwB;EACxB,aAAa;EACb,aAAa;EACb,oBAAoB;EACpB,gBAAgB;EAChB,0BAA0B;EAC1B,0BAA0B;EAC1B,0BAA0B;EAC1B,mBAAmB;CACpB;AACD;EACE,gCAAgC;CACjC;;AAED;EACE,kBAAkB;CACnB","file":"Header.module.css","sourcesContent":[".header {\n  height: 740px;\n}\n.header__props {\n  display: flex;\n  justify-content: flex-start;\n}\n\n.header__props_prop {\n  display: flex;\n  justify-content: center;\n  width: 302px;\n  height: 97px;\n  align-items: center;\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  border: 1px solid #edf1f2;\n  border-right: none;\n}\n.header__props_prop:last-child {\n  border-right: 1px solid #edf1f2;\n}\n\n.header__props_prop div {\n  margin-left: 14px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -1406,7 +1527,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Navbar_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar.module.css */ "./src/components/sections/Header/Navbar/Navbar.module.css");
 /* harmony import */ var _Navbar_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Navbar_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Navbar/Navbar.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Navbar/Navbar.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1521,7 +1642,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "._2YQfWpZlvXw7b4bibBn1Uk {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  border-bottom: 7px solid #fbfbfb;\n}\n._2BcxxFH2o45uuhsm7GNzpD {\n  background-image: url(\"/static/images/Logo.png\");\n  width: 111px;\n  height: 39px;\n}\n\n.ffK5YvlOyIDDly7bfuHfp {\n  font-size: 16px;\n}\n\n._1OZo9WcZuJ8mJvFWooRaMS {\n  color: #1a1a1a;\n  text-decoration: none;\n  display: inline-block;\n  margin-left: 40px;\n}\n\n._1OZo9WcZuJ8mJvFWooRaMS:hover {\n  text-decoration: underline;\n}\n\n._32WQ89JCIyo0jUd5lRGKMI {\n  position: relative;\n  margin-left: 10px;\n}\n._1JHu-7jcsaqY79yw3VwSP9 {\n  font-size: 16px;\n  color: #9a9a9a;\n  display: inline-block;\n  left: 30px;\n  position: relative;\n}\n._3-FTtLNbZo-CaM6bKsEvyx {\n  font-size: 20px;\n  display: inline-block;\n  position: relative;\n  left: 40px;\n}\n", "", {"version":3,"sources":["/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Navbar/Navbar.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,+BAA+B;EAC/B,oBAAoB;EACpB,kBAAkB;EAClB,qBAAqB;EACrB,iCAAiC;CAClC;AACD;EACE,iDAAiD;EACjD,aAAa;EACb,aAAa;CACd;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,eAAe;EACf,sBAAsB;EACtB,sBAAsB;EACtB,kBAAkB;CACnB;;AAED;EACE,2BAA2B;CAC5B;;AAED;EACE,mBAAmB;EACnB,kBAAkB;CACnB;AACD;EACE,gBAAgB;EAChB,eAAe;EACf,sBAAsB;EACtB,WAAW;EACX,mBAAmB;CACpB;AACD;EACE,gBAAgB;EAChB,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;CACZ","file":"Navbar.module.css","sourcesContent":[".header__navbar {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  border-bottom: 7px solid #fbfbfb;\n}\n.navbar__logo {\n  background-image: url(\"/static/images/Logo.png\");\n  width: 111px;\n  height: 39px;\n}\n\n.navbar__nav {\n  font-size: 16px;\n}\n\n.nav__link {\n  color: #1a1a1a;\n  text-decoration: none;\n  display: inline-block;\n  margin-left: 40px;\n}\n\n.nav__link:hover {\n  text-decoration: underline;\n}\n\n.navbar__phone {\n  position: relative;\n  margin-left: 10px;\n}\n.phone__text {\n  font-size: 16px;\n  color: #9a9a9a;\n  display: inline-block;\n  left: 30px;\n  position: relative;\n}\n.phone__number {\n  font-size: 20px;\n  display: inline-block;\n  position: relative;\n  left: 40px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "._2YQfWpZlvXw7b4bibBn1Uk {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  border-bottom: 7px solid #fbfbfb;\n}\n._2BcxxFH2o45uuhsm7GNzpD {\n  background-image: url(\"/static/images/Logo.png\");\n  width: 111px;\n  height: 39px;\n}\n\n.ffK5YvlOyIDDly7bfuHfp {\n  font-size: 16px;\n}\n\n._1OZo9WcZuJ8mJvFWooRaMS {\n  color: #1a1a1a;\n  text-decoration: none;\n  display: inline-block;\n  margin-left: 40px;\n}\n\n._1OZo9WcZuJ8mJvFWooRaMS:hover {\n  text-decoration: underline;\n}\n\n._32WQ89JCIyo0jUd5lRGKMI {\n  position: relative;\n  margin-left: 10px;\n}\n._1JHu-7jcsaqY79yw3VwSP9 {\n  font-size: 16px;\n  color: #9a9a9a;\n  display: inline-block;\n  left: 30px;\n  position: relative;\n}\n._3-FTtLNbZo-CaM6bKsEvyx {\n  font-size: 20px;\n  display: inline-block;\n  position: relative;\n  left: 40px;\n}\n", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/Header/Navbar/Navbar.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,+BAA+B;EAC/B,oBAAoB;EACpB,kBAAkB;EAClB,qBAAqB;EACrB,iCAAiC;CAClC;AACD;EACE,iDAAiD;EACjD,aAAa;EACb,aAAa;CACd;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,eAAe;EACf,sBAAsB;EACtB,sBAAsB;EACtB,kBAAkB;CACnB;;AAED;EACE,2BAA2B;CAC5B;;AAED;EACE,mBAAmB;EACnB,kBAAkB;CACnB;AACD;EACE,gBAAgB;EAChB,eAAe;EACf,sBAAsB;EACtB,WAAW;EACX,mBAAmB;CACpB;AACD;EACE,gBAAgB;EAChB,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;CACZ","file":"Navbar.module.css","sourcesContent":[".header__navbar {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  border-bottom: 7px solid #fbfbfb;\n}\n.navbar__logo {\n  background-image: url(\"/static/images/Logo.png\");\n  width: 111px;\n  height: 39px;\n}\n\n.navbar__nav {\n  font-size: 16px;\n}\n\n.nav__link {\n  color: #1a1a1a;\n  text-decoration: none;\n  display: inline-block;\n  margin-left: 40px;\n}\n\n.nav__link:hover {\n  text-decoration: underline;\n}\n\n.navbar__phone {\n  position: relative;\n  margin-left: 10px;\n}\n.phone__text {\n  font-size: 16px;\n  color: #9a9a9a;\n  display: inline-block;\n  left: 30px;\n  position: relative;\n}\n.phone__number {\n  font-size: 20px;\n  display: inline-block;\n  position: relative;\n  left: 40px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -1533,6 +1654,128 @@ exports.locals = {
 	"phone__text": "_1JHu-7jcsaqY79yw3VwSP9",
 	"phone__number": "_3-FTtLNbZo-CaM6bKsEvyx"
 };
+
+/***/ }),
+
+/***/ "./src/components/sections/LampConstructor/LampConstructor.jsx":
+/*!*********************************************************************!*\
+  !*** ./src/components/sections/LampConstructor/LampConstructor.jsx ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LampConstructor.module.css */ "./src/components/sections/LampConstructor/LampConstructor.module.css");
+/* harmony import */ var _LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _RangePicker_RangePicker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./RangePicker/RangePicker */ "./src/components/sections/LampConstructor/RangePicker/RangePicker.jsx");
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/LampConstructor/LampConstructor.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+const LampConstructor = props => {
+  return __jsx("div", {
+    className: _LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.lamp_constructor,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: _LampConstructor_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.lamp_constructor_inner,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, __jsx(_RangePicker_RangePicker__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (LampConstructor);
+
+/***/ }),
+
+/***/ "./src/components/sections/LampConstructor/LampConstructor.module.css":
+/*!****************************************************************************!*\
+  !*** ./src/components/sections/LampConstructor/LampConstructor.module.css ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, "._1Ztc3-QPiowNJ_T6mqBKh {\n  display: flex;\n  justify-content: center;\n}\n\n.IJ2QR4hl-4LEagKkBA40T {\n  width: 791px;\n}", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/LampConstructor/LampConstructor.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,wBAAwB;CACzB;;AAED;EACE,aAAa;CACd","file":"LampConstructor.module.css","sourcesContent":[".lamp_constructor {\n  display: flex;\n  justify-content: center;\n}\n\n.lamp_constructor_inner {\n  width: 791px;\n}"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"lamp_constructor": "_1Ztc3-QPiowNJ_T6mqBKh",
+	"lamp_constructor_inner": "IJ2QR4hl-4LEagKkBA40T"
+};
+
+/***/ }),
+
+/***/ "./src/components/sections/LampConstructor/RangePicker/RangePicker.jsx":
+/*!*****************************************************************************!*\
+  !*** ./src/components/sections/LampConstructor/RangePicker/RangePicker.jsx ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _RangePicker_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./RangePicker.module.css */ "./src/components/sections/LampConstructor/RangePicker/RangePicker.module.css");
+/* harmony import */ var _RangePicker_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_RangePicker_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/LampConstructor/RangePicker/RangePicker.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const RangePicker = props => {
+  return __jsx("div", {
+    className: _RangePicker_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.range_picker,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: undefined
+  }, "RANGE PICKER");
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (RangePicker);
+
+/***/ }),
+
+/***/ "./src/components/sections/LampConstructor/RangePicker/RangePicker.module.css":
+/*!************************************************************************************!*\
+  !*** ./src/components/sections/LampConstructor/RangePicker/RangePicker.module.css ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"RangePicker.module.css","sourceRoot":""}]);
+
+// exports
+
 
 /***/ }),
 
@@ -1549,7 +1792,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Portfolio.module.css */ "./src/components/sections/Portfolio/Portfolio.module.css");
 /* harmony import */ var _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Portfolio/Portfolio.jsx";
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Portfolio/Portfolio.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -1870,7 +2113,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "._1dloP2T5epKEfPFoTgGQQq {\n  height: 665px;\n  margin-bottom: 100px;\n  background-color: #f8f7fd;\n}\n._1SzEY0eYC5u4OsOg-NBahO {\n  height: 505px;\n  padding-top: 50px;\n}\n._1PL6KMTl2V2aKEVxIQnmFT {\n  margin-top: 0;\n  font-family: \"MullerExtraBold\";\n  font-size: 30px;\n  text-transform: uppercase;\n}\n._1k3fnLEJedO00V4nJET0JZ {\n  display: flex;\n  justify-content: space-between;\n}\n._35-ajRnDCD3NSOOkJ2ONSg {\n  width: 276px;\n  background-color: #fff;\n  border: 1px solid #efeef4;\n  padding-left: 12px;\n  transition: box-shadow 0.4s linear;\n}\n._35-ajRnDCD3NSOOkJ2ONSg:hover {\n  box-shadow: 0 10px 25px 0 #e3d1ff;\n}\n.lmw9mttGjdZO3XoEsBvsn {\n  margin-top: 13px;\n}\n.tthiUD0qMbNbjH5xAinp {\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  margin-top: 25px;\n  line-height: 1.4;\n  margin-bottom: 25px;\n}\n\n._35-ajRnDCD3NSOOkJ2ONSg p {\n  font-size: 18px;\n  margin-top: 20px;\n}\n\n._2aaae5z7_Z_G5hbYv03WSR {\n  margin-top: 40px;\n  margin-bottom: 30px;\n  font-size: 18px;\n}\n._2aaae5z7_Z_G5hbYv03WSR strong {\n  text-transform: uppercase;\n  font-family: \"MullerBold\";\n}\n", "", {"version":3,"sources":["/home/maximas/projects/fulogy-tz-2/src/components/sections/Portfolio/Portfolio.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,qBAAqB;EACrB,0BAA0B;CAC3B;AACD;EACE,cAAc;EACd,kBAAkB;CACnB;AACD;EACE,cAAc;EACd,+BAA+B;EAC/B,gBAAgB;EAChB,0BAA0B;CAC3B;AACD;EACE,cAAc;EACd,+BAA+B;CAChC;AACD;EACE,aAAa;EACb,uBAAuB;EACvB,0BAA0B;EAC1B,mBAAmB;EACnB,mCAAmC;CACpC;AACD;EACE,kCAAkC;CACnC;AACD;EACE,iBAAiB;CAClB;AACD;EACE,gBAAgB;EAChB,0BAA0B;EAC1B,0BAA0B;EAC1B,iBAAiB;EACjB,iBAAiB;EACjB,oBAAoB;CACrB;;AAED;EACE,gBAAgB;EAChB,iBAAiB;CAClB;;AAED;EACE,iBAAiB;EACjB,oBAAoB;EACpB,gBAAgB;CACjB;AACD;EACE,0BAA0B;EAC1B,0BAA0B;CAC3B","file":"Portfolio.module.css","sourcesContent":[".portfolio {\n  height: 665px;\n  margin-bottom: 100px;\n  background-color: #f8f7fd;\n}\n.portfolio__inner_wrapper {\n  height: 505px;\n  padding-top: 50px;\n}\n.inner_wrapper__label {\n  margin-top: 0;\n  font-family: \"MullerExtraBold\";\n  font-size: 30px;\n  text-transform: uppercase;\n}\n.inner_wrapper__works {\n  display: flex;\n  justify-content: space-between;\n}\n.work_item {\n  width: 276px;\n  background-color: #fff;\n  border: 1px solid #efeef4;\n  padding-left: 12px;\n  transition: box-shadow 0.4s linear;\n}\n.work_item:hover {\n  box-shadow: 0 10px 25px 0 #e3d1ff;\n}\n.work_item__img {\n  margin-top: 13px;\n}\n.work_item__label {\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  margin-top: 25px;\n  line-height: 1.4;\n  margin-bottom: 25px;\n}\n\n.work_item p {\n  font-size: 18px;\n  margin-top: 20px;\n}\n\n.work_item__price {\n  margin-top: 40px;\n  margin-bottom: 30px;\n  font-size: 18px;\n}\n.work_item__price strong {\n  text-transform: uppercase;\n  font-family: \"MullerBold\";\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, "._1dloP2T5epKEfPFoTgGQQq {\n  height: 665px;\n  background-color: #f8f7fd;\n}\n\n._1SzEY0eYC5u4OsOg-NBahO {\n  height: 505px;\n  padding-top: 50px;\n}\n\n._1PL6KMTl2V2aKEVxIQnmFT {\n  margin-top: 0;\n  font-family: \"MullerExtraBold\";\n  font-size: 30px;\n  text-transform: uppercase;\n}\n\n._1k3fnLEJedO00V4nJET0JZ {\n  display: flex;\n  justify-content: space-between;\n}\n\n._35-ajRnDCD3NSOOkJ2ONSg {\n  width: 276px;\n  background-color: #fff;\n  border: 1px solid #efeef4;\n  padding-left: 12px;\n  transition: box-shadow 0.4s linear;\n}\n\n._35-ajRnDCD3NSOOkJ2ONSg:hover {\n  box-shadow: 0 10px 25px 0 #e3d1ff;\n}\n\n.lmw9mttGjdZO3XoEsBvsn {\n  margin-top: 13px;\n}\n\n.tthiUD0qMbNbjH5xAinp {\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  margin-top: 25px;\n  line-height: 1.4;\n  margin-bottom: 25px;\n}\n\n._35-ajRnDCD3NSOOkJ2ONSg p {\n  font-size: 18px;\n  margin-top: 20px;\n}\n\n._2aaae5z7_Z_G5hbYv03WSR {\n  margin-top: 40px;\n  margin-bottom: 30px;\n  font-size: 18px;\n}\n\n._2aaae5z7_Z_G5hbYv03WSR strong {\n  text-transform: uppercase;\n  font-family: \"MullerBold\";\n}", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/Portfolio/Portfolio.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,0BAA0B;CAC3B;;AAED;EACE,cAAc;EACd,kBAAkB;CACnB;;AAED;EACE,cAAc;EACd,+BAA+B;EAC/B,gBAAgB;EAChB,0BAA0B;CAC3B;;AAED;EACE,cAAc;EACd,+BAA+B;CAChC;;AAED;EACE,aAAa;EACb,uBAAuB;EACvB,0BAA0B;EAC1B,mBAAmB;EACnB,mCAAmC;CACpC;;AAED;EACE,kCAAkC;CACnC;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,gBAAgB;EAChB,0BAA0B;EAC1B,0BAA0B;EAC1B,iBAAiB;EACjB,iBAAiB;EACjB,oBAAoB;CACrB;;AAED;EACE,gBAAgB;EAChB,iBAAiB;CAClB;;AAED;EACE,iBAAiB;EACjB,oBAAoB;EACpB,gBAAgB;CACjB;;AAED;EACE,0BAA0B;EAC1B,0BAA0B;CAC3B","file":"Portfolio.module.css","sourcesContent":[".portfolio {\n  height: 665px;\n  background-color: #f8f7fd;\n}\n\n.portfolio__inner_wrapper {\n  height: 505px;\n  padding-top: 50px;\n}\n\n.inner_wrapper__label {\n  margin-top: 0;\n  font-family: \"MullerExtraBold\";\n  font-size: 30px;\n  text-transform: uppercase;\n}\n\n.inner_wrapper__works {\n  display: flex;\n  justify-content: space-between;\n}\n\n.work_item {\n  width: 276px;\n  background-color: #fff;\n  border: 1px solid #efeef4;\n  padding-left: 12px;\n  transition: box-shadow 0.4s linear;\n}\n\n.work_item:hover {\n  box-shadow: 0 10px 25px 0 #e3d1ff;\n}\n\n.work_item__img {\n  margin-top: 13px;\n}\n\n.work_item__label {\n  font-size: 16px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  margin-top: 25px;\n  line-height: 1.4;\n  margin-bottom: 25px;\n}\n\n.work_item p {\n  font-size: 18px;\n  margin-top: 20px;\n}\n\n.work_item__price {\n  margin-top: 40px;\n  margin-bottom: 30px;\n  font-size: 18px;\n}\n\n.work_item__price strong {\n  text-transform: uppercase;\n  font-family: \"MullerBold\";\n}"],"sourceRoot":""}]);
 
 // exports
 exports.locals = {
@@ -1886,14 +2129,235 @@ exports.locals = {
 
 /***/ }),
 
-/***/ 3:
+/***/ "./src/components/sections/Slider/Slider.jsx":
+/*!***************************************************!*\
+  !*** ./src/components/sections/Slider/Slider.jsx ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Slider_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Slider.module.css */ "./src/components/sections/Slider/Slider.module.css");
+/* harmony import */ var _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Slider_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/user/work/projects/fulogy-tz-2/src/components/sections/Slider/Slider.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const Slider = props => {
+  const {
+    0: currentImage,
+    1: setCurrentImage
+  } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(1);
+
+  const sliderHandler = direction => {
+    switch (direction) {
+      case "next":
+        {
+          if (currentImage < 6) {
+            setCurrentImage(prev => prev + 1);
+          }
+
+          break;
+        }
+
+      case "prev":
+        {
+          if (currentImage > 1) {
+            setCurrentImage(prev => prev - 1);
+          }
+
+          break;
+        }
+    }
+  };
+
+  return __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: `${_Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__left} ${_Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__desc}`,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: undefined
+  }, "\u0411\u0435\u0441\u043A\u043E\u043D\u0442\u0430\u043A\u0442\u043D\u0430\u044F \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: undefined
+  }, "\u0421\u0432\u0435\u0442\u043E\u0434\u0438\u043E\u0434\u044B \u0432\u044B\u0441\u043E\u043A\u043E\u0439 \u0446\u0432\u0435\u0442\u043E\u043F\u0435\u0440\u0435\u0434\u0430\u0447\u0438"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  }, "\u0410\u043B\u044E\u043C\u0438\u043D\u0438\u0435\u0432\u044B\u0439 \u043A\u043E\u0440\u043F\u0443\u0441 \u0431\u0435\u0437 \u043F\u0435\u0440\u0435\u0433\u0440\u0435\u0432\u0430")), __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__center,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__center_inner,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.center_inner__image,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, __jsx("img", {
+    src: `/static/images/slider/Photo-${currentImage}.jpg`,
+    alt: `Photo-${currentImage}`,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  })), __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.center_inner__numberOf,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: undefined
+  }, __jsx("span", {
+    className: "purpure_text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: undefined
+  }, currentImage), " / 6"), __jsx("div", {
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.center_inner__buttons,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: undefined
+  }, __jsx("div", {
+    onClick: () => sliderHandler("prev"),
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.buttons__prev,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: undefined
+  }, __jsx("img", {
+    src: "/static/images/arrow.png",
+    alt: "prev",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: undefined
+  })), __jsx("div", {
+    onClick: () => sliderHandler("next"),
+    className: _Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.buttons__next,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: undefined
+  }, __jsx("img", {
+    src: "/static/images/arrow.png",
+    alt: "next",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: undefined
+  }))))), __jsx("div", {
+    className: `${_Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__right} ${_Slider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.slider__desc}`,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: undefined
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: undefined
+  }, "\u041D\u0438\u0437\u043A\u043E\u0435 \u044D\u043D\u0435\u0440\u0433\u043E\u043F\u043E\u0442\u0440\u0435\u0431\u043B\u0435\u043D\u0438\u0435"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: undefined
+  }, "\u041B\u0435\u0433\u043A\u043E \u043C\u043E\u043D\u0442\u0438\u0440\u0443\u0435\u0442\u0441\u044F \u0441\u0430\u043C\u043E\u0441\u0442\u043E\u044F\u0442\u0435\u043B\u044C\u043D\u043E"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: undefined
+  }, "\u0423\u0434\u043E\u0431\u043D\u043E \u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Slider);
+
+/***/ }),
+
+/***/ "./src/components/sections/Slider/Slider.module.css":
+/*!**********************************************************!*\
+  !*** ./src/components/sections/Slider/Slider.module.css ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, "._2tA7kDD74ZZF1La-80rgCX {\n  height: 586px;\n  display: flex;\n}\n\n/*---Slider Center---*/\n._27uUxhEKlkImA15Q0PUzMO {\n  width: 646px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.KPbc0hyjzdRyKqT15wER3 {\n  width: 100%;\n  height: 381px;\n  border: 3px solid #edf1f3;\n  position: relative;\n}\n\n._19DoA_aJih3sk68l6qHP9l {\n  width: 588px;\n  height: 380px;\n  margin: 0 auto;\n  position: absolute;\n  top: -50px;\n  left: 25px;\n}\n\n._39TPoO79nHU1N49GFUWQIl {\n  width: 135px;\n  height: 45px;\n  position: absolute;\n  bottom: -23px;\n  left: 250px;\n  display: flex;\n  justify-content: space-between;\n}\n\n._39TPoO79nHU1N49GFUWQIl>div {\n  height: 45px;\n  width: 45px;\n  border: 3px solid #edf1f3;\n  border-radius: 30px;\n  background: #fff;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transform: rotate(180deg);\n  transition: all 0.2s linear;\n}\n\n._39TPoO79nHU1N49GFUWQIl>div:hover {\n  transition: all 0.2s linear;\n  background: #5e50c2;\n  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  border: 2px solid #5e50c2;\n}\n\n._39TPoO79nHU1N49GFUWQIl>div:last-child img {\n  transform: rotate(180deg);\n}\n\n._19DoA_aJih3sk68l6qHP9l img {\n  width: 100%;\n  height: 100%;\n}\n\n._1KTPNZJZxbIx9M-6zYpOpZ {\n  position: absolute;\n  right: 30px;\n  bottom: 0;\n  color: #c2c2c2;\n}\n\n._1KTPNZJZxbIx9M-6zYpOpZ span {\n  font-size: 30px;\n}\n\n._3-dcEoLTqAUNvPo88cdW9e {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  width: 250px;\n  height: 270px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  line-height: 1.4;\n  margin-top: 150px;\n}\n\n._3-dcEoLTqAUNvPo88cdW9e>div {\n  /* height: 107px; */\n  border-bottom: 3px solid #edf1f3;\n  color: rgba(26, 26, 26, 255);\n}\n\n/*---Slider Left---*/\n._2aC7bIQpaKbuf6FTL0jBNr {\n  flex: 1;\n  text-align: right;\n}\n\n._2aC7bIQpaKbuf6FTL0jBNr>div {\n  padding-right: 20px;\n}\n\n/*---Slider Right---*/\n.BvkGC_5Ole-XWgnrHw-q {\n  flex: 1;\n  text-align: left;\n}\n\n.BvkGC_5Ole-XWgnrHw-q>div {\n  padding-left: 20px;\n}", "", {"version":3,"sources":["/home/user/work/projects/fulogy-tz-2/src/components/sections/Slider/Slider.module.css"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,cAAc;CACf;;AAED,uBAAuB;AACvB;EACE,aAAa;EACb,cAAc;EACd,uBAAuB;EACvB,wBAAwB;CACzB;;AAED;EACE,YAAY;EACZ,cAAc;EACd,0BAA0B;EAC1B,mBAAmB;CACpB;;AAED;EACE,aAAa;EACb,cAAc;EACd,eAAe;EACf,mBAAmB;EACnB,WAAW;EACX,WAAW;CACZ;;AAED;EACE,aAAa;EACb,aAAa;EACb,mBAAmB;EACnB,cAAc;EACd,YAAY;EACZ,cAAc;EACd,+BAA+B;CAChC;;AAED;EACE,aAAa;EACb,YAAY;EACZ,0BAA0B;EAC1B,oBAAoB;EACpB,iBAAiB;EACjB,cAAc;EACd,wBAAwB;EACxB,oBAAoB;EACpB,0BAA0B;EAC1B,4BAA4B;CAC7B;;AAED;EACE,4BAA4B;EAC5B,oBAAoB;EACpB,4CAA4C;EAC5C,gBAAgB;EAChB,0BAA0B;CAC3B;;AAED;EACE,0BAA0B;CAC3B;;AAED;EACE,YAAY;EACZ,aAAa;CACd;;AAED;EACE,mBAAmB;EACnB,YAAY;EACZ,UAAU;EACV,eAAe;CAChB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,cAAc;EACd,uBAAuB;EACvB,+BAA+B;EAC/B,aAAa;EACb,cAAc;EACd,0BAA0B;EAC1B,0BAA0B;EAC1B,iBAAiB;EACjB,kBAAkB;CACnB;;AAED;EACE,oBAAoB;EACpB,iCAAiC;EACjC,6BAA6B;CAC9B;;AAED,qBAAqB;AACrB;EACE,QAAQ;EACR,kBAAkB;CACnB;;AAED;EACE,oBAAoB;CACrB;;AAED,sBAAsB;AACtB;EACE,QAAQ;EACR,iBAAiB;CAClB;;AAED;EACE,mBAAmB;CACpB","file":"Slider.module.css","sourcesContent":[".slider {\n  height: 586px;\n  display: flex;\n}\n\n/*---Slider Center---*/\n.slider__center {\n  width: 646px;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.slider__center_inner {\n  width: 100%;\n  height: 381px;\n  border: 3px solid #edf1f3;\n  position: relative;\n}\n\n.center_inner__image {\n  width: 588px;\n  height: 380px;\n  margin: 0 auto;\n  position: absolute;\n  top: -50px;\n  left: 25px;\n}\n\n.center_inner__buttons {\n  width: 135px;\n  height: 45px;\n  position: absolute;\n  bottom: -23px;\n  left: 250px;\n  display: flex;\n  justify-content: space-between;\n}\n\n.center_inner__buttons>div {\n  height: 45px;\n  width: 45px;\n  border: 3px solid #edf1f3;\n  border-radius: 30px;\n  background: #fff;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transform: rotate(180deg);\n  transition: all 0.2s linear;\n}\n\n.center_inner__buttons>div:hover {\n  transition: all 0.2s linear;\n  background: #5e50c2;\n  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  border: 2px solid #5e50c2;\n}\n\n.center_inner__buttons>div:last-child img {\n  transform: rotate(180deg);\n}\n\n.center_inner__image img {\n  width: 100%;\n  height: 100%;\n}\n\n.center_inner__numberOf {\n  position: absolute;\n  right: 30px;\n  bottom: 0;\n  color: #c2c2c2;\n}\n\n.center_inner__numberOf span {\n  font-size: 30px;\n}\n\n.slider__desc {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  width: 250px;\n  height: 270px;\n  font-family: \"MullerBold\";\n  text-transform: uppercase;\n  line-height: 1.4;\n  margin-top: 150px;\n}\n\n.slider__desc>div {\n  /* height: 107px; */\n  border-bottom: 3px solid #edf1f3;\n  color: rgba(26, 26, 26, 255);\n}\n\n/*---Slider Left---*/\n.slider__left {\n  flex: 1;\n  text-align: right;\n}\n\n.slider__left>div {\n  padding-right: 20px;\n}\n\n/*---Slider Right---*/\n.slider__right {\n  flex: 1;\n  text-align: left;\n}\n\n.slider__right>div {\n  padding-left: 20px;\n}"],"sourceRoot":""}]);
+
+// exports
+exports.locals = {
+	"slider": "_2tA7kDD74ZZF1La-80rgCX",
+	"slider__center": "_27uUxhEKlkImA15Q0PUzMO",
+	"slider__center_inner": "KPbc0hyjzdRyKqT15wER3",
+	"center_inner__image": "_19DoA_aJih3sk68l6qHP9l",
+	"center_inner__buttons": "_39TPoO79nHU1N49GFUWQIl",
+	"center_inner__numberOf": "_1KTPNZJZxbIx9M-6zYpOpZ",
+	"slider__desc": "_3-dcEoLTqAUNvPo88cdW9e",
+	"slider__left": "_2aC7bIQpaKbuf6FTL0jBNr",
+	"slider__right": "BvkGC_5Ole-XWgnrHw-q"
+};
+
+/***/ }),
+
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/maximas/projects/fulogy-tz-2/pages/index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! /home/user/work/projects/fulogy-tz-2/pages/index.js */"./pages/index.js");
 
 
 /***/ }),
