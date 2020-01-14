@@ -1,3 +1,27 @@
 .header {
   height: 740px;
 }
+.header__props {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__props_prop {
+  display: flex;
+  justify-content: center;
+  width: 302px;
+  height: 97px;
+  align-items: center;
+  font-size: 16px;
+  font-family: "MullerBold";
+  text-transform: uppercase;
+  border: 1px solid #edf1f2;
+  border-right: none;
+}
+.header__props_prop:last-child {
+  border-right: 1px solid #edf1f2;
+}
+
+.header__props_prop div {
+  margin-left: 14px;
+}

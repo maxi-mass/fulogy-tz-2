@@ -18,107 +18,17 @@
   font-family: "MullerExtraBold";
 }
 .content_left__get_video {
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 358px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .get_video__info {
   border-bottom: 2px solid #f8f8f8;
   display: inline-block;
   padding-bottom: 20px;
-}
-.get_video__button {
-  width: 80px;
-  height: 80px;
-  background: #fff9f5;
-  border-radius: 40px;
-  display: inline-block;
-}
-.get_video__button_yellow {
-  width: 54px;
-  height: 54px;
-  /* background: #ffcf0d; */
-  border-radius: 40px;
-  margin: 13px auto;
-  position: relative;
-}
-.get_video__button_bg {
-  width: 38px;
-  height: 38px;
-  background-image: url("/static/images/video-button-bg.png");
-  border-radius: 40px;
-  position: absolute;
-  top: 8px;
-  left: 8px;
-}
-
-/*---Content Right---*/
-.content_right {
-  flex: 1;
-  /* outline: 1px solid lime; */
-  background-image: url("/static/images/Ellipse.png");
-  background-size: 840px auto;
-  background-position: 0px -80px;
-  background-repeat: no-repeat;
-  position: relative;
-}
-.content_right > img {
-  position: absolute;
-  top: 130px;
-  left: 60px;
-}
-
-.content_right__switch {
-  background-color: #fff;
-  width: 235px;
-  height: 40px;
-  border-radius: 20px;
-  position: absolute;
-  top: 60px;
-  left: 20px;
-  z-index: 9999;
-}
-
-.switch_group {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-}
-.switch_group > div {
-  border-radius: 6px;
-  height: 12px;
-  width: 12px;
-  display: inline-block;
-  margin-right: 15px;
-}
-
-.switch_group .switch_gold {
-  background-color: #d9c79c;
-}
-.switch_group .switch_white {
-  border: 1px solid #e6e6e6;
-}
-.switch_group .switch_black {
-  background-color: #595959;
-}
-.switch_group .switch_gray {
-  background-color: #c9c9c9;
-}
-
-.switch_group > div:hover {
-  cursor: pointer;
-}
-
-.content_right__lamp_variant {
-  width: 500px;
-  height: auto;
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-}
-.content_right__lamp_variant > img {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  top: 20px;
-  right: -200px;
+  font-size: 16px;
 }

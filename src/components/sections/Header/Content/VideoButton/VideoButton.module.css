@@ -1,0 +1,26 @@
+.get_video__button {
+  width: 80px;
+  height: 80px;
+  /* background: #fff9f5; */
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.get_video__button_yellow {
+  width: 54px;
+  height: 54px;
+  /* background: #ffcf0d; */
+  border-radius: 40px;
+  margin: 13px auto;
+  position: relative;
+}
+.get_video__button_bg {
+  width: 38px;
+  height: 38px;
+  background-image: url("/static/images/video-button-bg.png");
+  border-radius: 40px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}

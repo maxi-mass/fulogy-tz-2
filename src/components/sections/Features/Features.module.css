@@ -1,0 +1,118 @@
+.features {
+  position: relative;
+  height: 555px;
+  background-image: url("/static/images/fetures-bg.png");
+  display: flex;
+  color: #fff;
+}
+/*-----------LEFT----------*/
+.features__left {
+  width: 436px;
+  /* outline: 1px solid sandybrown; */
+  margin-left: 36px;
+  display: flex;
+  justify-content: center;
+}
+.features__left_inner {
+  width: 276px;
+  z-index: 9999;
+  position: relative;
+  /* outline: 1px solid red; */
+}
+.features__left_inner__header {
+  margin-top: 60px;
+  font-family: "MullerExtraBold";
+  font-size: 30px;
+}
+.features__left_inner__desc {
+  font-size: 20px;
+  margin-top: 28px;
+  line-height: 1.5;
+}
+.features__left_inner__desc span,
+.features__left_inner__phone span {
+  font-family: "MullerExtraBold";
+  color: #ffcf0d;
+  font-size: 20px;
+}
+.features__left_inner__label {
+  margin-top: 46px;
+  margin-bottom: 66px;
+  font-family: "MullerBold";
+  text-transform: uppercase;
+}
+
+.features__left_inner__phone {
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.features__left_inner__arrow {
+  width: 88px;
+  height: 62px;
+  background-image: url("/static/images/features-arrow.png");
+  position: absolute;
+  top: 240px;
+  right: 10px;
+}
+
+.features__left__quotes {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 178px;
+  height: 134px;
+  background-image: url("/static/images/features-quotes.png");
+}
+
+.features__left_inner__social {
+  width: 95px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.features__left_inner__social div {
+  height: 19px;
+  width: 19px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.features__left_inner__social img {
+  height: 19px;
+  width: 19px;
+}
+
+/*-------RIGHT---------*/
+.features__right_inner {
+  width: 681px;
+  height: 403px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.features__right_inner table {
+  width: 100%;
+  height: 100%;
+}
+.features__right_inner table tr {
+  vertical-align: top;
+}
+.features__right_inner table tr:nth-child(2) .feature_number {
+  margin-top: 40px;
+}
+.features__right_inner table td {
+  margin-bottom: 30px;
+}
+
+.features__right_inner__feature {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  font-size: 20px;
+}
+.feature_number {
+  font-size: 36px;
+  font-family: "MullerBold";
+  margin-bottom: 30px;
+}

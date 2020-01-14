@@ -1699,8 +1699,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _src_components_Wrapper_Wrapper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/components/Wrapper/Wrapper */ "./src/components/Wrapper/Wrapper.jsx");
 /* harmony import */ var _src_components_sections_Header_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/sections/Header/Header */ "./src/components/sections/Header/Header.jsx");
+/* harmony import */ var _src_components_sections_Features_Features__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/sections/Features/Features */ "./src/components/sections/Features/Features.jsx");
+/* harmony import */ var _src_components_sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/components/sections/Portfolio/Portfolio */ "./src/components/sections/Portfolio/Portfolio.jsx");
 var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
@@ -1709,13 +1713,25 @@ var Index = function Index() {
   return __jsx(_src_components_Wrapper_Wrapper__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
     },
     __self: this
   }, __jsx(_src_components_sections_Header_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 10
+    },
+    __self: this
+  }), __jsx(_src_components_sections_Features_Features__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), __jsx(_src_components_sections_Portfolio_Portfolio__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
     },
     __self: this
   }));
@@ -1791,6 +1807,430 @@ var Button = function Button(props) {
 
 /***/ }),
 
+/***/ "./src/components/sections/Features/Features.jsx":
+/*!*******************************************************!*\
+  !*** ./src/components/sections/Features/Features.jsx ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Features_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Features.module.css */ "./src/components/sections/Features/Features.module.css");
+/* harmony import */ var _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Features_module_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _common_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/Button/Button */ "./src/components/common/Button/Button.jsx");
+var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Features/Features.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+var Features = function Features(props) {
+  return __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__left,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__left_inner,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__left_inner__header,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "\u0421\u0422\u041E\u0418\u041C\u041E\u0421\u0422\u042C"), __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__left_inner__desc,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "\u0421\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u043F\u043E\u0433\u043E\u043D\u043D\u043E\u0433\u043E \u043C\u0435\u0442\u0440\u0430 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u0430 fulogy \u043E\u0442 ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), __jsx("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "2000"), " \u0440\u0443\u0431."), __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__left_inner__label,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "\u0412 \u0446\u0435\u043D\u0443 \u0432\u0445\u043E\u0434\u0438\u0442:"), __jsx(_common_Button_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "\u0417\u0430\u043A\u0430\u0437\u0430\u0442\u044C \u0437\u0432\u043E\u043D\u043E\u043A"), __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__left_inner__phone,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "\u0438\u043B\u0438 \u0437\u0432\u043E\u043D\u0438\u0442\u0435 \u043F\u043E \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0443:", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), __jsx("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "+7-(800)-505-65-33")), __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__left_inner__social,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/whatsapp.svg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  })), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/viber.svg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  })), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/telega.svg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }))), __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__left_inner__arrow,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  })), __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__left__quotes,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  })), __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__right,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__right_inner,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, __jsx("table", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, __jsx("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, __jsx("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__right_inner__feature,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.feature_number,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "01"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "\u0411\u043B\u043E\u043A \u043F\u0438\u0442\u0430\u043D\u0438\u044F ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }), " (\u043D\u0435 \u0441\u0432\u0438\u0441\u0442\u0438\u0442, ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }), " \u043D\u0435 \u0436\u0443\u0436\u0436\u0438\u0442);"))), __jsx("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__right_inner__feature,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.feature_number,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "02"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "\u0418\u043D\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043B\u044C\u043D\u043E\u0435 ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }), " \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u043E ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }), " \u0434\u043B\u044F \u0412\u0430\u0448\u0435\u0439 \u043A\u0443\u0445\u043D\u0438;"))), __jsx("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__right_inner__feature,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.feature_number,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "03"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, "\u0421\u0435\u043D\u0441\u043E\u0440 \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }), " \u0441\u0432\u0435\u0442\u043E\u043C \u043E\u0447\u0435\u043D\u044C \u0443\u0434\u043E\u0431\u043D\u044B\u0439, ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }), "\u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0447\u043D\u044B\u0439 \u0438 \u0441\u0442\u0438\u043B\u044C\u043D\u044B\u0439;")))), __jsx("tr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, __jsx("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__right_inner__feature,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.feature_number,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, "04"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "\u0413\u0430\u0440\u0430\u043D\u0442\u0438\u044F 5 \u043B\u0435\u0442;"))), __jsx("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__right_inner__feature,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.feature_number,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, "05"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "\u0414\u0435\u043C\u043E\u043D\u0442\u0430\u0436 \u0441\u0442\u0430\u0440\u044B\u0445 ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }), " \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u043E\u0432 \u0438 ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }), " \u043C\u043E\u043D\u0442\u0430\u0436 \u043D\u0430\u0448\u0438\u0445;"))), __jsx("td", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.features__right_inner__feature,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Features_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.feature_number,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "06"), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, "\u0421\u0432\u0435\u0442\u043E\u0434\u0438\u043E\u0434\u044B \u0432\u044B\u0441\u043E\u043A\u043E\u0439 ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }), " \u0446\u0432\u0435\u0442\u043E\u043F\u0435\u0440\u0435\u0434\u0430\u0447\u0438, \u0447\u0442\u043E \u0434\u0435\u043B\u0430\u0435\u0442 ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }), "\u0441\u0432\u0435\u0442 \u043F\u0440\u0438\u0431\u043B\u0438\u0436\u0435\u043D\u043D\u044B\u043C \u043A ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }), " \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043D\u043E\u043C\u0443 \u0441\u043E\u043B\u043D\u0435\u0447\u043D\u043E\u043C\u0443 \u0446\u0432\u0435\u0442\u0443."))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Features);
+
+/***/ }),
+
 /***/ "./src/components/sections/Header/Content/Content.jsx":
 /*!************************************************************!*\
   !*** ./src/components/sections/Header/Content/Content.jsx ***!
@@ -1805,209 +2245,190 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Content_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Content.module.css */ "./src/components/sections/Header/Content/Content.module.css");
 /* harmony import */ var _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Content_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _common_Button_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../common/Button/Button */ "./src/components/common/Button/Button.jsx");
+/* harmony import */ var _VideoButton_VideoButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./VideoButton/VideoButton */ "./src/components/sections/Header/Content/VideoButton/VideoButton.jsx");
+/* harmony import */ var _LampSlider_LampSlider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./LampSlider/LampSlider */ "./src/components/sections/Header/Content/LampSlider/LampSlider.jsx");
 var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/Content.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
+
+
 var Content = function Content(props) {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])("gold"),
-      lampColor = _useState[0],
-      setLampColor = _useState[1];
-
-  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
-    opacity: 1.0,
-    opDirection: "down"
-  }),
-      yellowСircle = _useState2[0],
-      setYellowСircle = _useState2[1];
-
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    setTimeout(function () {
-      if (yellowСircle.opDirection === "down" && yellowСircle.opacity > 0.2) {
-        setYellowСircle(function (prev) {
-          return {
-            opacity: Number((prev.opacity - 0.03).toFixed(2)),
-            opDirection: prev.opDirection
-          };
-        });
-      } else if (yellowСircle.opDirection === "down" && yellowСircle.opacity <= 0.2) {
-        setYellowСircle(function (prev) {
-          return {
-            opacity: prev.opacity,
-            opDirection: "up"
-          };
-        });
-      } else if (yellowСircle.opDirection === "up" && yellowСircle.opacity < 1.0) {
-        setYellowСircle(function (prev) {
-          return {
-            opacity: Number((prev.opacity + 0.03).toFixed(2)),
-            opDirection: prev.opDirection
-          };
-        });
-      } else if (yellowСircle.opDirection === "up" && yellowСircle.opacity >= 1) {
-        setYellowСircle(function (prev) {
-          return {
-            opacity: prev.opacity,
-            opDirection: "down"
-          };
-        });
-      }
-    }, 35);
-  }, [yellowСircle]);
   return __jsx("div", {
     className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.header__content,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 9
     },
     __self: this
   }, __jsx("div", {
     className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content_left,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 11
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 12
     },
     __self: this
   }, "\u043F\u0440\u0435\u043C\u0438\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0435\u043D\u0441\u043E\u0440\u043D\u044B\u0435 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u0438 \u0434\u043B\u044F \u043A\u0443\u0445\u043D\u0438"), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 13
     },
     __self: this
   }, __jsx("span", {
     className: "purpure_text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 14
     },
     __self: this
-  }, "8 \u043B\u0435\u0442"), " \u043E\u0441\u043D\u0430\u0449\u0430\u0435\u043C \u0412\u0430\u0448\u0438 \u043A\u0443\u0445\u043D\u0438 \u043D\u0430\u0448\u0438\u043C\u0438 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u0430\u043C\u0438 \u043F\u043E \u0446\u0435\u043D\u0435 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044F."), __jsx("div", {
+  }, "8 \u043B\u0435\u0442"), " \u043E\u0441\u043D\u0430\u0449\u0430\u0435\u043C \u0412\u0430\u0448\u0438 \u043A\u0443\u0445\u043D\u0438 \u043D\u0430\u0448\u0438\u043C\u0438 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u0430\u043C\u0438 ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), " \u043F\u043E \u0446\u0435\u043D\u0435 \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0438\u0442\u0435\u043B\u044F."), __jsx("div", {
     className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content_left__get_video,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 17
     },
     __self: this
   }, __jsx("div", {
     className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.get_video__info,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 18
     },
     __self: this
   }, __jsx("span", {
     className: "purpure_text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 19
     },
     __self: this
   }, "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435"), " \u0432\u0438\u0434\u0435\u043E\u043F\u0440\u0435\u0437\u0435\u043D\u0442\u0430\u0446\u0438\u044E", __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 20
     },
     __self: this
-  }), " \u043E \u043D\u0430\u0448\u0438\u0445 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u0430\u0445!"), __jsx("div", {
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.get_video__button,
-    onClick: function onClick() {
-      return console.log("Video");
-    },
+  }), " \u043E \u043D\u0430\u0448\u0438\u0445 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u0430\u0445!"), __jsx(_VideoButton_VideoButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 22
+    },
+    __self: this
+  })), __jsx(_common_Button_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u043E\u043D\u043B\u0430\u0439\u043D \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440")), __jsx(_LampSlider_LampSlider__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Content);
+
+/***/ }),
+
+/***/ "./src/components/sections/Header/Content/LampSlider/LampSlider.jsx":
+/*!**************************************************************************!*\
+  !*** ./src/components/sections/Header/Content/LampSlider/LampSlider.jsx ***!
+  \**************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LampSlider.module.css */ "./src/components/sections/Header/Content/LampSlider/LampSlider.module.css");
+/* harmony import */ var _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/LampSlider/LampSlider.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var LampSlider = function LampSlider(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])("gold"),
+      lampColor = _useState[0],
+      setLampColor = _useState[1];
+
+  return __jsx("div", {
+    className: _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content_right,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
-    style: {
-      background: "rgba(255, 207, 13, ".concat(yellowСircle.opacity, ")")
-    },
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.get_video__button_yellow,
+    className: _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content_right__switch,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 8
     },
     __self: this
   }, __jsx("div", {
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.get_video__button_bg,
+    className: _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_group,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  })))), __jsx(_common_Button_Button__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, "\u043E\u043D\u043B\u0430\u0439\u043D \u043A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440")), __jsx("div", {
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content_right,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }, __jsx("div", {
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content_right__switch,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, __jsx("div", {
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_group,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 9
     },
     __self: this
   }, __jsx("div", {
     onClick: function onClick() {
       return setLampColor("gold");
     },
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_gold,
+    className: _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_gold,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 10
     },
     __self: this
   }), __jsx("div", {
     onClick: function onClick() {
       return setLampColor("white");
     },
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_white,
+    className: _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_white,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 14
     },
     __self: this
   }), __jsx("div", {
     onClick: function onClick() {
       return setLampColor("black");
     },
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_black,
+    className: _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_black,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 18
     },
     __self: this
   }), __jsx("div", {
     onClick: function onClick() {
       return setLampColor("gray");
     },
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_gray,
+    className: _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.switch_gray,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 22
     },
     __self: this
   }))), __jsx("img", {
@@ -2015,14 +2436,14 @@ var Content = function Content(props) {
     alt: "man",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 28
     },
     __self: this
   }), __jsx("div", {
-    className: _Content_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content_right__lamp_variant,
+    className: _LampSlider_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.content_right__lamp_variant,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 29
     },
     __self: this
   }, __jsx("img", {
@@ -2030,13 +2451,125 @@ var Content = function Content(props) {
     alt: "lamp",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 30
     },
     __self: this
-  }))));
+  })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Content);
+/* harmony default export */ __webpack_exports__["default"] = (LampSlider);
+
+/***/ }),
+
+/***/ "./src/components/sections/Header/Content/VideoButton/VideoButton.jsx":
+/*!****************************************************************************!*\
+  !*** ./src/components/sections/Header/Content/VideoButton/VideoButton.jsx ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./VideoButton.module.css */ "./src/components/sections/Header/Content/VideoButton/VideoButton.module.css");
+/* harmony import */ var _VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Header/Content/VideoButton/VideoButton.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var VideoButton = function VideoButton(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
+    opacity: 1.0,
+    opDirection: "down"
+  }),
+      yellowСircle = _useState[0],
+      setYellowСircle = _useState[1];
+
+  var _useState2 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({
+    opacity: 0.0,
+    opDirection: "up"
+  }),
+      pinkСircle = _useState2[0],
+      setPinkСircle = _useState2[1];
+
+  var changeCircle = function changeCircle(circle, setCircle) {
+    if (circle.opDirection === "down" && circle.opacity > 0.2) {
+      setCircle(function (prev) {
+        return {
+          opacity: Number((prev.opacity - 0.03).toFixed(2)),
+          opDirection: prev.opDirection
+        };
+      });
+    } else if (circle.opDirection === "down" && circle.opacity <= 0.2) {
+      setCircle(function (prev) {
+        return {
+          opacity: prev.opacity,
+          opDirection: "up"
+        };
+      });
+    } else if (circle.opDirection === "up" && circle.opacity < 1.0) {
+      setCircle(function (prev) {
+        return {
+          opacity: Number((prev.opacity + 0.03).toFixed(2)),
+          opDirection: prev.opDirection
+        };
+      });
+    } else if (circle.opDirection === "up" && circle.opacity >= 1) {
+      setCircle(function (prev) {
+        return {
+          opacity: prev.opacity,
+          opDirection: "down"
+        };
+      });
+    }
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    setTimeout(function () {
+      return changeCircle(yellowСircle, setYellowСircle);
+    }, 35);
+  }, [yellowСircle]);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    setTimeout(function () {
+      return changeCircle(pinkСircle, setPinkСircle);
+    }, 35);
+  }, [pinkСircle]);
+  return __jsx("div", {
+    style: {
+      background: "rgba(255, 249, 245, ".concat(pinkСircle.opacity, ")")
+    },
+    className: _VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.get_video__button,
+    onClick: function onClick() {
+      return console.log("Video");
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx("div", {
+    style: {
+      background: "rgba(255, 207, 13, ".concat(yellowСircle.opacity, ")")
+    },
+    className: _VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.get_video__button_yellow,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _VideoButton_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.get_video__button_bg,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (VideoButton);
 
 /***/ }),
 
@@ -2082,7 +2615,132 @@ var Header = function Header() {
       lineNumber: 10
     },
     __self: this
-  }));
+  }), __jsx("div", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.header__props,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.header__props_prop,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/prop-1.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "prop_desc",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0430 \u043F\u043E\u0434 \u0440\u0430\u0437\u043C\u0435\u0440 \u0412\u0430\u0448\u0435\u0439 \u043A\u0443\u0445\u043D\u0438 \u0437\u0430 72 \u0447\u0430\u0441\u0430;")), __jsx("div", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.header__props_prop,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/prop-2.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "prop_desc",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0413\u0430\u0440\u0430\u043D\u0442\u0438\u044F 5 \u043B\u0435\u0442;")), __jsx("div", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.header__props_prop,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/prop-3.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "prop_desc",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "\u0411\u0435\u0441\u043A\u043E\u043D\u0442\u0430\u043A\u0442\u043D\u043E\u0435 ", __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }), " \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0441\u0432\u0435\u0442\u043E\u043C;")), __jsx("div", {
+    className: _Header_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.header__props_prop,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "icon1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/prop-4.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "prop_desc",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, " \u042D\u043A\u0441\u043A\u043B\u044E\u0437\u0438\u0432\u043D\u043E\u0441\u0442\u044C."))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -2202,6 +2860,328 @@ var Navbar = function Navbar(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./src/components/sections/Portfolio/Portfolio.jsx":
+/*!*********************************************************!*\
+  !*** ./src/components/sections/Portfolio/Portfolio.jsx ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Portfolio.module.css */ "./src/components/sections/Portfolio/Portfolio.module.css");
+/* harmony import */ var _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/maximas/projects/fulogy-tz-2/src/components/sections/Portfolio/Portfolio.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var Portfolio = function Portfolio(props) {
+  return __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.portfolio,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.portfolio__inner_wrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("p", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.inner_wrapper__label,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "\u0423\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u044B\u0435 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A\u0438:"), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.inner_wrapper__works,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__img,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/work-item-1.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  })), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__label,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "\u0423\u0433\u043B\u043E\u0432\u043E\u0439 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A 3,49 \u043C\u0435\u0442\u0440\u0430:"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "\u0414\u043B\u0438\u043D\u0430: 1,2 \u043C. + 1,86 \u043C. + 0,4\u043C;"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "LED \u0418\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u0441\u0432\u0435\u0442\u0430 LUX, \u0434\u043D\u0435\u0432\u043D\u043E\u0439;"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u0431\u0435\u0441\u043A\u043E\u043D\u0442\u0430\u043A\u0442\u043D\u044B\u0439 \u0434\u0438\u043C\u043C\u0435\u0440 (\u0441\u0435\u043D\u0441\u043E\u0440);"), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__price,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "\u0426\u0435\u043D\u0430:", " ", __jsx("span", {
+    className: "purpure_text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "5016 ", __jsx("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "\u0440\u0443\u0431.")))), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__img,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/work-item-2.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  })), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__label,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "\u0423\u0433\u043B\u043E\u0432\u043E\u0439 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A 3,9 \u043C\u0435\u0442\u0440\u0430:"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "\u0414\u043B\u0438\u043D\u0430: 1,33 \u043C. + 1,57 \u043C. + 0,9\u043C;"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "LED \u0418\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u0441\u0432\u0435\u0442\u0430 LUX, \u0434\u043D\u0435\u0432\u043D\u043E\u0439;"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u0431\u0435\u0441\u043A\u043E\u043D\u0442\u0430\u043A\u0442\u043D\u044B\u0439 \u0434\u0438\u043C\u043C\u0435\u0440 (\u0441\u0435\u043D\u0441\u043E\u0440);"), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__price,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "\u0426\u0435\u043D\u0430:", " ", __jsx("span", {
+    className: "purpure_text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "7975 ", __jsx("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "\u0440\u0443\u0431.")))), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__img,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/work-item-3.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  })), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__label,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }, "\u0423\u0433\u043B\u043E\u0432\u043E\u0439 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A 3,47 \u043C\u0435\u0442\u0440\u0430:"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "\u0414\u043B\u0438\u043D\u0430: 1,54 \u043C. + 1,03 \u043C. + 0,9\u043C;"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "LED \u0418\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u0441\u0432\u0435\u0442\u0430 LUX, \u0434\u043D\u0435\u0432\u043D\u043E\u0439;"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }, "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u0431\u0435\u0441\u043A\u043E\u043D\u0442\u0430\u043A\u0442\u043D\u044B\u0439 \u0434\u0438\u043C\u043C\u0435\u0440 (\u0441\u0435\u043D\u0441\u043E\u0440);"), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__price,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, "\u0426\u0435\u043D\u0430:", " ", __jsx("span", {
+    className: "purpure_text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "8176 ", __jsx("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "\u0440\u0443\u0431.")))), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__img,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, __jsx("img", {
+    src: "/static/images/work-item-4.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  })), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__label,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }, "\u0423\u0433\u043B\u043E\u0432\u043E\u0439 \u0441\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A 4,55 \u043C\u0435\u0442\u0440\u0430:"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, "\u0414\u043B\u0438\u043D\u0430: 1,05 \u043C. + 2,1 \u043C. + 1,4\u043C."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, "LED \u0418\u0441\u0442\u043E\u0447\u043D\u0438\u043A \u0441\u0432\u0435\u0442\u0430 LUX, \u0434\u043D\u0435\u0432\u043D\u043E\u0439;"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, "\u0412\u0441\u0442\u0440\u043E\u0435\u043D\u043D\u044B\u0439 \u0431\u0435\u0441\u043A\u043E\u043D\u0442\u0430\u043A\u0442\u043D\u044B\u0439 \u0434\u0438\u043C\u043C\u0435\u0440 (\u0441\u0435\u043D\u0441\u043E\u0440);"), __jsx("div", {
+    className: _Portfolio_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.work_item__price,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "\u0426\u0435\u043D\u0430:", " ", __jsx("span", {
+    className: "purpure_text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, "12837 ", __jsx("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, "\u0440\u0443\u0431.")))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Portfolio);
 
 /***/ }),
 
