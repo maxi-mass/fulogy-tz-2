@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Wishes.module.css";
+import styles from "./Wishes.module.scss";
 
 const Wishes = props => {};
 

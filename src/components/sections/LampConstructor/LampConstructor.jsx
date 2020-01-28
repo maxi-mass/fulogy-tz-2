@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./LampConstructor.module.css";
+import styles from "./LampConstructor.module.scss";
 import RangePicker from "./RangePicker/RangePicker";
 
 const LampConstructor = props => {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./LampSlider.module.css";
+import styles from "./LampSlider.module.scss";
 
 const LampSlider = props => {
   const [lampColor, setLampColor] = useState("gold");

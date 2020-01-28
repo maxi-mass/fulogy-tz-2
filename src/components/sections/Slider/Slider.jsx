@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Slider.module.css";
+import styles from "./Slider.module.scss";
 
 const Slider = props => {
   const [currentImage, setCurrentImage] = useState(1);

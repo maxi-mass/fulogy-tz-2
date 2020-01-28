@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Features.module.css";
+import styles from "./Features.module.scss";
 import Button from "../../common/Button/Button";
 
 const Features = props => {

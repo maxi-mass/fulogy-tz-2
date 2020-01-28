@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Content.module.css";
+import styles from "./Content.module.scss";
 import Button from "../../../common/Button/Button";
 import VideoButton from "./VideoButton/VideoButton";
 import LampSlider from "./LampSlider/LampSlider";

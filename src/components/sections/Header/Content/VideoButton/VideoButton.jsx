@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./VideoButton.module.css";
+import styles from "./VideoButton.module.scss";
 
 const VideoButton = props => {
   const [yellowСircle, setYellowСircle] = useState({

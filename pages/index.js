@@ -5,7 +5,7 @@ import Features from "../src/components/sections/Features/Features";
 import Portfolio from "../src/components/sections/Portfolio/Portfolio";
 import Slider from "../src/components/sections/Slider/Slider";
 import AboutPrice from "../src/components/sections/AboutPrice/AboutPrice";
-import LampConstructor from '../src/components/sections/LampConstructor/LampConstructor';
+import LampConstructor from "../src/components/sections/LampConstructor/LampConstructor";
 
 const Index = () => {
   return (
@@ -15,7 +15,7 @@ const Index = () => {
       <Portfolio />
       <Slider />
       <AboutPrice />
-
+      <LampConstructor />
     </Wrapper>
   );
 };
