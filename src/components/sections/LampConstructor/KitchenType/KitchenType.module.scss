@@ -4,7 +4,6 @@
   background-color: #fff;
   margin-top: 20px;
   justify-content: center;
-  margin-bottom: 100px;
   padding-top: 38px;
 }
 
@@ -14,10 +13,12 @@
   font-size: 20px;
   font-family: "MullerBold";
 }
+
 .kitchen_type__switch {
   margin-top: 28px;
   display: flex;
 }
+
 .switch__type {
   flex: 3;
   height: 100%;
@@ -25,28 +26,45 @@
   display: flex;
   justify-content: space-around;
 }
+
+
+
 .switch__specialist_advice {
   flex: 1;
   height: 100%;
   width: 100%;
   outline: 1px solid orange;
 }
+
 .variant_label {
   margin-bottom: 22px;
   text-align: center;
   color: rgba(142, 142, 142, 255);
+  cursor: pointer;
 }
-.variant_label > div {
+
+.variant_label>div:first-child {
   display: inline-block;
   width: 12px;
   height: 12px;
   margin-right: 8px;
   background-image: url("/static/images/radio-blur.png");
 }
+
+.variant_label_active {
+  color: #1a1a1a;
+
+}
+
+.variant_label_active>div:first-child {
+  background-image: url("/static/images/radio-active.png");
+}
+
 .variant_image {
   max-width: 122px;
   text-align: center;
 }
+
 .expert_advice {
   max-width: 122px;
   text-align: center;
@@ -56,6 +74,15 @@
   justify-content: space-between;
   height: 104px;
 }
-.expert_advice > div:last-child {
+
+.expert_advice.variant_label_active>div:first-child {
+  background-image: none;
+}
+
+.expert_advice.variant_label_active {
+  color: #1a1a1a;
+}
+
+.expert_advice>div:last-child {
   font-size: 35px;
 }
