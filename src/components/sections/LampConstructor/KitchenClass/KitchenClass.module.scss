@@ -1,6 +1,6 @@
 .kitchen_class {
   width: 791px;
-  min-height: 391px;
+  min-height: 396px;
   background-color: #fff;
   margin-top: 20px;
   justify-content: center;
@@ -36,9 +36,11 @@
 }
 
 .switch_class__label {
+  cursor: pointer;
   text-align: center;
   margin-bottom: 20px;
 }
+
 
 .label__radio {
   display: inline-block;
@@ -46,6 +48,10 @@
   height: 12px;
   margin-right: 8px;
   background-image: url("/static/images/radio-blur.png");
+}
+
+.active_label .label__radio {
+  background-image: url("/static/images/radio-active.png");
 }
 
 .switch_class__content {

@@ -27,8 +27,6 @@
   justify-content: space-around;
 }
 
-
-
 .switch__specialist_advice {
   flex: 1;
   height: 100%;
@@ -43,7 +41,7 @@
   cursor: pointer;
 }
 
-.variant_label>div:first-child {
+.variant_label > div:first-child {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -53,10 +51,9 @@
 
 .variant_label_active {
   color: #1a1a1a;
-
 }
 
-.variant_label_active>div:first-child {
+.variant_label_active > div:first-child {
   background-image: url("/static/images/radio-active.png");
 }
 
@@ -75,7 +72,7 @@
   height: 104px;
 }
 
-.expert_advice.variant_label_active>div:first-child {
+.expert_advice.variant_label_active > div:first-child {
   background-image: none;
 }
 
@@ -83,6 +80,6 @@
   color: #1a1a1a;
 }
 
-.expert_advice>div:last-child {
+.expert_advice > div:last-child {
   font-size: 35px;
 }

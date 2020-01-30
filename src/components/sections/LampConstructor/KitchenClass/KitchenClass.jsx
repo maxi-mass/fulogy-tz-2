@@ -3,6 +3,7 @@ import styles from "./KitchenClass.module.scss";
 
 const KitchenClass = props => {
   const [kitchenClass, setKitchenClass] = useState(1);
+
   return (
     <div className={styles.kitchen_class}>
       <div className={styles.kitchen_class__info}>
@@ -11,7 +12,9 @@ const KitchenClass = props => {
       <div className={styles.switch_class}>
         <div>
           <div
-            className={styles.switch_class__label}
+            className={`${styles.switch_class__label} ${
+              kitchenClass === 1 ? styles.active_label : ""
+            }`}
             onClick={() => setKitchenClass(1)}
           >
             <div className={styles.label__radio}></div>PRO
@@ -27,7 +30,9 @@ const KitchenClass = props => {
         </div>
         <div>
           <div
-            className={styles.switch_class__label}
+            className={`${styles.switch_class__label} ${
+              kitchenClass === 2 ? styles.active_label : ""
+            }`}
             onClick={() => setKitchenClass(2)}
           >
             <div className={styles.label__radio}></div>PRO+
@@ -49,7 +54,9 @@ const KitchenClass = props => {
         </div>
         <div>
           <div
-            className={styles.switch_class__label}
+            className={`${styles.switch_class__label} ${
+              kitchenClass === 3 ? styles.active_label : ""
+            }`}
             onClick={() => setKitchenClass(3)}
           >
             <div className={styles.label__radio}></div>

@@ -1,0 +1,66 @@
+.lamp_color {
+  width: 791px;
+  min-height: 396px;
+  background-color: #fff;
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 100px;
+  padding-top: 38px;
+}
+
+.lamp_color__info {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "MullerBold";
+  margin-bottom: 28px;
+}
+
+.color_switch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color_switch>div {
+  flex: 1;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.color_switch__active_variant .label__radio {
+  background-image: url("/static/images/radio-active.png");
+}
+
+.color_switch__active_variant .variant__image img {
+  opacity: 1;
+}
+
+.variant__label {
+  font-size: 19px;
+  color: rgba(142, 142, 142, 255);
+}
+
+.label__radio {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  background-image: url("/static/images/radio-blur.png");
+}
+
+.variant__image {
+  width: 84px;
+  height: 84px;
+  overflow: hidden;
+}
+
+.variant__image img {
+  width: 145%;
+  opacity: 0.5;
+  position: relative;
+  left: 20%;
+  top: 35%;
+}
